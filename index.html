@@ -317,10 +317,10 @@
                    attributeType="XML"
                    type="translate"
                    dur="1s"
-                   values="-90,62;-80,62"
+                   values="-90,62;-100,62"
                    restart="whenNotActive"
                    fill="freeze"
-                   begin="coallid.click+2s; coalincontainer.click+2s; Containersticker.click+2s;ContainerLabel.click+2s;container.click+2s"
+                   begin="coallid.click+1.3s; coalincontainer.click+1.3s; Containersticker.click+1.3s;ContainerLabel.click+1.3s;container.click+1.3s"
                    
                    />
    </rect>
@@ -390,6 +390,7 @@
              d="m 98.468533,15.601215 a 4.5290194,1.8380519 0 0 0 -4.208065,1.158632 c -0.03431,-0.0061 -0.06927,-0.0097 -0.105186,-0.0097 h -15.09673 c -0.35844,0 -0.646993,0.307403 -0.646993,0.689258 0,0.381853 0.288553,0.689257 0.646993,0.689257 h 15.096724 c 0.03591,0 0.07083,-0.0039 0.105126,-0.0097 a 4.5290194,1.8380519 0 0 0 4.208213,1.158553 4.5290194,1.8380519 0 0 0 4.529015,-1.837994 4.5290194,1.8380519 0 0 0 -4.529015,-1.838074 4.5290194,1.8380519 0 0 1 -7.5e-5,0 z"
              style="fill:#c8b7b7;stroke:#000000;stroke-width:0.0588926;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.85769236"
              id="fancyspoon">
+             
              <animateTransform 
                   attributeName="transform"
                   attributeType="XML"
@@ -411,11 +412,35 @@
                   attributeName="transform"
                   attributeType="XML"
                   type="translate"
+                  dur="1s"
+                  transform="rotate(-45,100,100)"
+                  visibility="hidden"
+                  fill="freeze"
+                  begin="fancyspoon1.click"
+                  additive="sum" 
+                  
+                  />
+             <animateTransform 
+                  attributeName="transform"
+                  attributeType="XML"
+                  type="translate"
                   dur="1.2s"
-                  values="0,0;30,10"
+                  values="0,0;35,10;35,15"
                   visibility="hidden"
                   fill="freeze"
                   begin="fancyspoon1.click;blackpowder.click"
+                  additive="sum" 
+                  
+                  />
+                  <animateTransform 
+                  attributeName="transform"
+                  attributeType="XML"
+                  type="translate"
+                  dur="0.5s"
+                  values="0,0;0,-7"
+                  visibility="hidden"
+                  fill="freeze"
+                  begin="fancyspoon1.click+1.2s"
                   additive="sum" 
                   
                   />
@@ -452,7 +477,7 @@
                     attributeType="XML"
                     type="translate"
                     dur="1.2s"
-                    values="0,0;30,10"
+                    values="0,0;35,10;35,18"
                     visibility="hidden"
                     fill="freeze"
                     begin="blackpowder.click; fancyspoon1.click"
@@ -486,14 +511,79 @@
                   attributeName="transform"
                   attributeType="XML"
                   type="translate"
-                  dur="1s"
-                  values="0,0;0,63"
+                  dur="1.3s"
+                  values="0,0;0,58;19,58"
                   visibility="hidden"
                   fill="freeze"
                   begin="tongs.click"
                   additive="sum" 
                   
                   />
+                  <animateTransform 
+                  attributeName="transform"
+                  attributeType="XML"
+                  type="translate"
+                  dur="1.7s"
+                  values="0,0;0,-29;50,-29;50,0"
+                  visibility="hidden"
+                  fill="freeze"
+                  begin="tongs.click+1.5s"
+                  additive="sum" 
+                  
+                  />
+                  <!--<animateTransform 
+                  attributeName="transform"
+                  attributeType="XML"
+                  type="translate"
+                  dur="1.7s"
+                  values="0,0;30,-10"
+                  visibility="hidden"
+                  fill="freeze"
+                  begin="tongs.click+4s"
+                  additive="sum" 
+                  
+                  />-->
+                  <!--this is when tongss keep the cruciblee in the furnace and go back to the shelf-->
+                  <animateTransform 
+                  attributeName="transform"
+                  attributeType="XML"
+                  type="translate"
+                  dur="1.5s"
+                  values="0,0;0,-10;-5,-29;-66,-57;"
+                  visibility="hidden"
+                  fill="freeze"
+                  begin="tongs.click+4s"
+                  additive="sum" 
+                  
+                  />
+                  <!--tongss move from shelf to deligator-->
+                  <animateTransform 
+                  attributeName="transform"
+                  attributeType="XML"
+                  type="translate"
+                  dur="1.5s"
+                  values="0,0;20,20;60,20;66,57"
+                  visibility="hidden"
+                  fill="freeze"
+                  begin="tongs.click+6s"
+                  additive="sum" 
+                  
+                  />
+                  <!--tongss remove cruciblee from furnace and keep it in the deligator-->
+               
+                  <animateTransform 
+                  attributeName="transform"
+                  attributeType="XML"
+                  type="translate"
+                  dur="2s"
+                  values="0,0;0,-40;90,-40;90,-25"
+                  visibility="hidden"
+                  fill="freeze"
+                  begin="tongs.click+8s"
+                  additive="sum" 
+                  
+                  />
+
                </path>
           <path
              d="m 151.84766,16.952671 v 1.804024 h 2.67271 v -1.804024 z m -4.5067,2.378668 a 10.921559,2.2626414 0 0 0 -5.46116,1.95957 h 10.92181 10.92182 a 10.921559,2.2626414 0 0 0 -5.46117,-1.95957 10.921559,2.2626414 0 0 0 -10.9213,0 z"
@@ -559,6 +649,25 @@
              />
             </path>
             <path
+            sodipodi:nodetypes="ccccccccc"
+            d="m 61.599786,80.054696 c 6.9e-5,1.361422 1.321661,2.619412 3.466964,3.300115 2.145289,0.680683 4.788358,0.680683 6.93365,0 1.55239,-0.492547 2.69738,-1.296359 3.19478,-2.242812 l 1.31964,-1.0645 -1.04746,0.0072 c 0.001,-0.03315 -6e-5,0.03316 0,0 h -6.933927 z"
+            style="opacity:1;fill:#f2f2f2;fill-opacity:1;stroke:#000000;stroke-width:0.263376;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.857692;paint-order:markers stroke fill"
+            id="crucible_to_weighingmachine">
+
+            <animateTransform 
+            attributeName="transform"
+            attributeType="XML"
+            type="translate"
+            dur="1.7s"
+            values="0,0;10,-35;30,-35;29.6,-9"
+            visibility="hidden"
+            fill="freeze"
+            begin="crucible_to_weighingmachine.click"
+            additive="sum" 
+           
+            />
+           </path>
+            <!--<path
              id="crucible_to_weighingmachine"
              style="opacity:1;fill:#f2f2f2;fill-opacity:1;stroke:#000000;stroke-width:0.428581;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.857692;paint-order:markers stroke fill"
              d="m 54,77 c 1.04e-4,2.389346 1.994093,4.597165 5.230878,5.791824 3.236765,1.194624 7.224569,1.194624 10.461333,0 2.342205,-0.864438 4.069746,-2.275158 4.820222,-3.936218 l 1.99104,-1.868238 -1.580384,0.01263 c 0.0025,-0.05817 -8.5e-5,0.05819 0,0 H 21.81231 Z"
@@ -567,25 +676,178 @@
              attributeName="transform"
              attributeType="XML"
              type="translate"
-             dur="1.2s"
-             values="0,0;33,-9"
+             dur="1.5s"
+             values="0,0;10,-35;30,-35;33,-9"
              visibility="hidden"
              fill="freeze"
              begin="crucible_to_weighingmachine.click"
              additive="sum" 
             
              />
-            </path>
+             <animateTransform 
+             attributeName="transform"
+             attributeType="XML"
+             type="translate"
+             dur="1.7s"
+             values="0,0;0,-28;-30,-28;-30,9"
+             visibility="hidden"
+             fill="freeze"
+             begin="crucible_to_weighingmachine.click+1.7s"
+             additive="sum" 
+            
+             />
+            </path>-->
            
           <path
              id="blackpowderinmachine"
              style="fill:#333333;stroke:#000000;stroke-width:0.0295644;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.857692"
-             d="m 101.15948,71.295607 c -1.793055,0.223503 -3.849944,0.383184 -5.494038,-0.02055 0.789523,-0.35698 1.701734,-0.764852 2.491256,-1.121834 z" />
+             d="m 101.15948,71.295607 c -1.793055,0.223503 -3.849944,0.383184 -5.494038,-0.02055 0.789523,-0.35698 1.701734,-0.764852 2.491256,-1.121834 z">
+
+             <animateTransform 
+             attributeName="transform"
+             attributeType="XML"
+             type="translate"
+             dur="1.7s"
+             values="0,0;0,-28;-30,-28;-30,9"
+             visibility="hidden"
+             fill="freeze"
+             begin="Crucibleinmachine.click"
+             additive="sum" 
+            
+             />
+             <animateTransform 
+             attributeName="transform"
+             attributeType="XML"
+             type="translate"
+             dur="1.7s"
+             values="0,0;10,-35;30,-35;29.6,-9"
+             visibility="hidden"
+             fill="freeze"
+             begin="Crucibleinmachine.click+5s"
+             additive="sum" 
+            
+             />
+             <animateTransform 
+                  attributeName="transform"
+                  attributeType="XML"
+                  type="translate"
+                  dur="1.7s"
+                  values="0,0;0,-29;50,-29;50,0"
+                  visibility="hidden"
+                  fill="freeze"
+                  begin="tongs.click+1.5s"
+                  additive="sum" 
+                  
+                  />
+                  <!--<animateTransform 
+                  attributeName="transform"
+                  attributeType="XML"
+                  type="translate"
+                  dur="1.7s"
+                  values="0,0;30,-10"
+                  visibility="hidden"
+                  fill="freeze"
+                  begin="tongs.click+4s"
+                  additive="sum" 
+                  
+                  />-->
+                  <animateTransform 
+                  attributeName="transform"
+                  attributeType="XML"
+                  type="translate"
+                  dur="2s"
+                  values="0,0;0,-40;90,-40;90,-25"
+                  visibility="hidden"
+                  fill="freeze"
+                  begin="tongs.click+8s"
+                  additive="sum" 
+                  
+                  />
+                  <!--tongss move the crucible towards the delegator-->
+
+                  <animateTransform 
+                  attributeName="transform"
+                  attributeType="XML"
+                  type="translate"
+                  dur="2s"
+                  values="0,0;0,0;0,0;0,0"
+                  visibility="hidden"
+                  fill="freeze"
+                  begin="tongs.click+8s"
+                  additive="sum" 
+                  
+                  />
+            </path>
+          
           <path
              sodipodi:nodetypes="ccccccccc"
              d="m 91.099786,71.354696 c 6.9e-5,1.361422 1.321661,2.619412 3.466964,3.300115 2.145289,0.680683 4.788358,0.680683 6.93365,0 1.55239,-0.492547 2.69738,-1.296359 3.19478,-2.242812 l 1.31964,-1.0645 -1.04746,0.0072 c 0.001,-0.03315 -6e-5,0.03316 0,0 h -6.933927 z"
              style="opacity:1;fill:#f2f2f2;fill-opacity:1;stroke:#000000;stroke-width:0.263376;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.857692;paint-order:markers stroke fill"
-             id="Crucibleinmachine" />
+             id="Crucibleinmachine">
+
+             <animateTransform 
+             attributeName="transform"
+             attributeType="XML"
+             type="translate"
+             dur="1.7s"
+             values="0,0;0,-28;-30,-28;-30,9"
+             visibility="hidden"
+             fill="freeze"
+             begin="Crucibleinmachine.click"
+             additive="sum" 
+            
+             />
+             <animateTransform 
+             attributeName="transform"
+             attributeType="XML"
+             type="translate"
+             dur="1.7s"
+             values="0,0;10,-35;30,-35;29.6,-9"
+             visibility="hidden"
+             fill="freeze"
+             begin="Crucibleinmachine.click+5s"
+             additive="sum" 
+            
+             />
+             <animateTransform 
+                  attributeName="transform"
+                  attributeType="XML"
+                  type="translate"
+                  dur="1.7s"
+                  values="0,0;0,-29;49,-29;49,0"
+                  visibility="hidden"
+                  fill="freeze"
+                  begin="tongs.click+1.5s"
+                  additive="sum" 
+                  
+                  />
+                  <!--<animateTransform 
+                  attributeName="transform"
+                  attributeType="XML"
+                  type="translate"
+                  dur="1.7s"
+                  values="0,0;30,-10"
+                  visibility="hidden"
+                  fill="freeze"
+                  begin="tongs.click+4s"
+                  additive="sum" 
+                  
+                  />-->
+                  <!--furnace se delegator-->
+
+                  <animateTransform 
+                  attributeName="transform"
+                  attributeType="XML"
+                  type="translate"
+                  dur="2s"
+                  values="0,0;0,-40;90,-40;90,-25"
+                  visibility="hidden"
+                  fill="freeze"
+                  begin="tongs.click+8s"
+                  additive="sum" 
+                  
+                  />
+            </path>
           <path
              transform="scale(0.26458333)"
              d="M 843.03125 211.94922 L 843.03125 232.67578 L 846.29102 232.67578 L 846.29102 214.23047 L 857.53125 214.23047 L 857.53125 213.07422 L 846.29102 213.07422 L 846.29102 211.94922 L 843.03125 211.94922 z M 840.92188 232.87695 L 840.92188 238.7793 L 847.80664 238.7793 L 847.80664 232.87695 L 840.92188 232.87695 z M 842.85547 239.66797 A 28.128761 7.4038779 0 0 0 829.31641 240.66016 A 28.128761 7.4038779 0 0 0 815.25 247.07227 L 843.37891 247.07227 L 871.50977 247.07227 A 28.128761 7.4038779 0 0 0 857.44336 240.66016 A 28.128761 7.4038779 0 0 0 843.37695 239.66797 A 28.128761 7.4038779 0 0 0 842.85547 239.66797 z M 821.76172 247.22656 C 817.36927 247.22656 813.83203 251.71822 813.83203 257.29883 L 813.83203 295.45508 C 813.83203 301.03569 817.36927 305.5293 821.76172 305.5293 L 865.4668 305.5293 C 869.85921 305.5293 873.39453 301.03569 873.39453 295.45508 L 873.39453 257.29883 C 873.39453 251.71822 869.85921 247.22656 865.4668 247.22656 L 821.76172 247.22656 z M 818.80859 306.40625 C 817.85732 306.40625 817.11998 307.37818 817.1543 308.58594 L 817.38867 316.84375 C 817.42269 318.05152 818.21678 319.02539 819.16797 319.02539 L 868.31445 319.02539 C 869.26565 319.02539 870.00495 318.05152 869.9707 316.84375 L 869.73438 308.58594 C 869.70036 307.37818 868.90826 306.40625 867.95703 306.40625 L 818.80859 306.40625 z "
