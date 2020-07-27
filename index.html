@@ -508,6 +508,7 @@
              d="m 44.73828,10.061844 -0.04341,3.24528 0.100253,0.0062 v 0.02532 h 6.035808 l 0.210322,0.237195 6.488491,1.117761 a 0.69434029,0.69134235 0 0 0 0.0052,0.07131 l -6.100403,1.69447 -0.190169,0.24753 -0.08733,-0.0057 h -6.341731 l -0.04444,3.510897 0.122989,0.0083 h 6.341731 l 0.04289,-3.433382 6.344317,-1.762166 a 0.69434029,0.69134235 0 0 0 0.600995,0.345198 0.69434029,0.69134235 0 0 0 0.649058,-0.445451 l 5.472533,0.942579 -0.05013,0.130224 0.310576,-0.08527 0.08682,0.01499 -0.02791,-0.03101 6.515364,-1.788004 0.441833,0.05943 0.112655,-0.211357 0.109037,-0.28112 -0.723985,0.198438 -6.919476,-0.927592 0.03204,-0.04134 -0.111623,0.03101 -0.05323,-0.0072 -0.01395,0.02584 -5.195548,1.443323 a 0.69434029,0.69134235 0 0 0 -0.634072,-0.409794 0.69434029,0.69134235 0 0 0 -0.641821,0.427881 l -6.520015,-1.123446 0.04341,-3.223059 -0.120925,-0.0072 z m 0.119372,0.104387 h 6.125207 l -0.04134,3.067513 H 44.81683 Z m 19.184876,2.985347 6.522082,0.874365 -6.079733,1.667599 -0.09353,-0.104903 -5.430676,-0.93586 4.994011,-1.386996 z m -19.106327,3.662825 h 6.219259 l -0.04134,3.292823 h -6.218743 z"
              style="opacity:0.690096;fill:#c8b7b7;fill-opacity:1;stroke:#000000;stroke-width:0.499999;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.857692;paint-order:markers stroke fill"
              id="tongs">
+             <!--tongs move from the shelf to weighing balance -->
              <animateTransform 
                   attributeName="transform"
                   attributeType="XML"
@@ -520,6 +521,7 @@
                   additive="sum" 
                   
                   />
+                  <!--tangs take the cruciblee from machine to furnace-->
                   <animateTransform 
                   attributeName="transform"
                   attributeType="XML"
@@ -532,6 +534,7 @@
                   additive="sum" 
                   
                   />
+          
                   <!--<animateTransform 
                   attributeName="transform"
                   attributeType="XML"
@@ -557,6 +560,11 @@
                   additive="sum" 
                   
                   />
+               </path>
+               <path
+                  d="m 44.73828,13.061844 -0.04341,3.24528 0.100253,0.0062 v 0.02532 h 6.035808 l 0.210322,0.237195 6.488491,1.117761 a 0.69434029,0.69134235 0 0 0 0.0052,0.07131 l -6.100403,1.69447 -0.190169,0.24753 -0.08733,-0.0057 h -6.341731 l -0.04444,3.510897 0.122989,0.0083 h 6.341731 l 0.04289,-3.433382 6.344317,-1.762166 a 0.69434029,0.69134235 0 0 0 0.600995,0.345198 0.69434029,0.69134235 0 0 0 0.649058,-0.445451 l 5.472533,0.942579 -0.05013,0.130224 0.310576,-0.08527 0.08682,0.01499 -0.02791,-0.03101 6.515364,-1.788004 0.441833,0.05943 0.112655,-0.211357 0.109037,-0.28112 -0.723985,0.198438 -6.919476,-0.927592 0.03204,-0.04134 -0.111623,0.03101 -0.05323,-0.0072 -0.01395,0.02584 -5.195548,1.443323 a 0.69434029,0.69134235 0 0 0 -0.634072,-0.409794 0.69434029,0.69134235 0 0 0 -0.641821,0.427881 l -6.520015,-1.123446 0.04341,-3.223059 -0.120925,-0.0072 z m 0.119372,0.104387 h 6.125207 l -0.04134,3.067513 H 44.81683 Z m 19.184876,2.985347 6.522082,0.874365 -6.079733,1.667599 -0.09353,-0.104903 -5.430676,-0.93586 4.994011,-1.386996 z m -19.106327,3.662825 h 6.219259 l -0.04134,3.292823 h -6.218743 z"
+                  style="opacity:0.690096;fill:#c8b7b7;fill-opacity:1;stroke:#000000;stroke-width:0.499999;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.857692;paint-order:markers stroke fill"
+                  id="tongs2">
                   <!--tongss move from shelf to deligator-->
                   <animateTransform 
                   attributeName="transform"
@@ -566,7 +574,7 @@
                   values="0,0;20,20;60,20;66,57"
                   visibility="hidden"
                   fill="freeze"
-                  begin="tongs.click+6s"
+                  begin="tongs2.click"
                   additive="sum" 
                   
                   />
@@ -580,7 +588,7 @@
                   values="0,0;0,-40;90,-40;90,-25"
                   visibility="hidden"
                   fill="freeze"
-                  begin="tongs.click+8s"
+                  begin="tongs2.click+4s"
                   additive="sum" 
                   
                   />
@@ -655,7 +663,7 @@
             sodipodi:nodetypes="ccccccccc"
             d="m 61.599786,80.054696 c 6.9e-5,1.361422 1.321661,2.619412 3.466964,3.300115 2.145289,0.680683 4.788358,0.680683 6.93365,0 1.55239,-0.492547 2.69738,-1.296359 3.19478,-2.242812 l 1.31964,-1.0645 -1.04746,0.0072 c 0.001,-0.03315 -6e-5,0.03316 0,0 h -6.933927 z"
             style="opacity:1;fill:#f2f2f2;fill-opacity:1;stroke:#000000;stroke-width:0.263376;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.857692;paint-order:markers stroke fill"
-            id="crucible_to_weighingmachine" display = "none" onclick="f2()">
+            id="crucible_to_weighingmachine"  onclick="f2()">
 
             <animateTransform 
             attributeName="transform"
@@ -673,7 +681,7 @@
            
            
           <path
-             id="blackpowderinmachine" display="none"
+             id="blackpowderinmachine" 
              style="fill:#333333;stroke:#000000;stroke-width:0.0295644;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.857692"
              d="m 101.15948,71.295607 c -1.793055,0.223503 -3.849944,0.383184 -5.494038,-0.02055 0.789523,-0.35698 1.701734,-0.764852 2.491256,-1.121834 z">
 
@@ -757,8 +765,8 @@
              sodipodi:nodetypes="ccccccccc"
              d="m 91.099786,71.354696 c 6.9e-5,1.361422 1.321661,2.619412 3.466964,3.300115 2.145289,0.680683 4.788358,0.680683 6.93365,0 1.55239,-0.492547 2.69738,-1.296359 3.19478,-2.242812 l 1.31964,-1.0645 -1.04746,0.0072 c 0.001,-0.03315 -6e-5,0.03316 0,0 h -6.933927 z"
              style="opacity:1;fill:#f2f2f2;fill-opacity:1;stroke:#000000;stroke-width:0.263376;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.857692;paint-order:markers stroke fill"
-             id="Crucibleinmachine" display="none" onclick="f3()">
-
+             id="Crucibleinmachine" onclick="f3()">
+               <!--khali cruciblee is weighed and is sent back to the table-->
              <animateTransform 
              attributeName="transform"
              attributeType="XML"
@@ -771,6 +779,13 @@
              additive="sum" 
             
              />
+          </path>
+             <!--powder is filled in cruciblee and is taken to machine to be  weighed-->
+             <path
+             sodipodi:nodetypes="ccccccccc"
+             d="m 61.999786,85.354696 c 6.9e-5,1.361422 1.321661,2.619412 3.466964,3.300115 2.145289,0.680683 4.788358,0.680683 6.93365,0 1.55239,-0.492547 2.69738,-1.296359 3.19478,-2.242812 l 1.31964,-1.0645 -1.04746,0.0072 c 0.001,-0.03315 -6e-5,0.03316 0,0 h -6.933927 z"
+             style="opacity:1;fill:#f2f2f2;fill-opacity:1;stroke:#000000;stroke-width:0.263376;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.857692;paint-order:markers stroke fill"
+             id="Cruciblefilledwithpowderistakentomachine"  onclick="f3()">
              <animateTransform 
              attributeName="transform"
              attributeType="XML"
@@ -779,10 +794,17 @@
              values="0,0;10,-35;30,-35;29.6,-9"
              visibility="hidden"
              fill="freeze"
-             begin="Crucibleinmachine.click+5s"
+             begin="Cruciblefilledwithpowderistakentomachine.click"
              additive="sum" 
             
              />
+             </path>
+             <path
+             sodipodi:nodetypes="ccccccccc"
+             d="m 91.099786,77.354696 c 6.9e-5,1.361422 1.321661,2.619412 3.466964,3.300115 2.145289,0.680683 4.788358,0.680683 6.93365,0 1.55239,-0.492547 2.69738,-1.296359 3.19478,-2.242812 l 1.31964,-1.0645 -1.04746,0.0072 c 0.001,-0.03315 -6e-5,0.03316 0,0 h -6.933927 z"
+             style="opacity:1;fill:#f2f2f2;fill-opacity:1;stroke:#000000;stroke-width:0.263376;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.857692;paint-order:markers stroke fill"
+             id="tongswilltaketofurnace"  onclick="f3()">
+             
              <animateTransform 
                   attributeName="transform"
                   attributeType="XML"
@@ -795,7 +817,26 @@
                   additive="sum" 
                   
                   />
-                 
+                  </path>
+
+                  <!--<animateTransform 
+                  attributeName="transform"
+                  attributeType="XML"
+                  type="translate"
+                  dur="1.7s"
+                  values="0,0;30,-10"
+                  visibility="hidden"
+                  fill="freeze"
+                  begin="tongs.click+4s"
+                  additive="sum" 
+                  
+                  />-->
+                  <!--furnace se delegator-->
+                  <path
+                  sodipodi:nodetypes="ccccccccc"
+                  d="m 140.099786,77.354696 c 6.9e-5,1.361422 1.321661,2.619412 3.466964,3.300115 2.145289,0.680683 4.788358,0.680683 6.93365,0 1.55239,-0.492547 2.69738,-1.296359 3.19478,-2.242812 l 1.31964,-1.0645 -1.04746,0.0072 c 0.001,-0.03315 -6e-5,0.03316 0,0 h -6.933927 z"
+                  style="opacity:1;fill:#f2f2f2;fill-opacity:1;stroke:#000000;stroke-width:0.263376;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.857692;paint-order:markers stroke fill"
+                  id="tongswilltaketodelegator"  onclick="f3()">
                   <animateTransform 
                   attributeName="transform"
                   attributeType="XML"
@@ -804,30 +845,12 @@
                   values="0,0;0,-40;90,-40;90,-25"
                   visibility="hidden"
                   fill="freeze"
-                  begin="tongs.click+8s"
+                  begin="tongs2.click+2s"
                   additive="sum" 
                   
                   />
             </path>
-            <path
-             sodipodi:nodetypes="ccccccccc"
-             d="m 91.099786,71.354696 c 6.9e-5,1.361422 1.321661,2.619412 3.466964,3.300115 2.145289,0.680683 4.788358,0.680683 6.93365,0 1.55239,-0.492547 2.69738,-1.296359 3.19478,-2.242812 l 1.31964,-1.0645 -1.04746,0.0072 c 0.001,-0.03315 -6e-5,0.03316 0,0 h -6.933927 z"
-             style="opacity:1;fill:#f2f2f2;fill-opacity:1;stroke:#000000;stroke-width:0.263376;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.857692;paint-order:markers stroke fill"
-             id="CrucibleinOven"  >
-
-             <animateTransform 
-             attributeName="transform"
-             attributeType="XML"
-             type="translate"
-             dur="1.7s"
-             values="0,0;0,-28;80,-10"
-             visibility="hidden"
-             fill="freeze"
-             begin="CrucibleinOven.click"
-             additive="sum" 
             
-             />
-             </path>
           <path
              transform="scale(0.26458333)"
              d="M 843.03125 211.94922 L 843.03125 232.67578 L 846.29102 232.67578 L 846.29102 214.23047 L 857.53125 214.23047 L 857.53125 213.07422 L 846.29102 213.07422 L 846.29102 211.94922 L 843.03125 211.94922 z M 840.92188 232.87695 L 840.92188 238.7793 L 847.80664 238.7793 L 847.80664 232.87695 L 840.92188 232.87695 z M 842.85547 239.66797 A 28.128761 7.4038779 0 0 0 829.31641 240.66016 A 28.128761 7.4038779 0 0 0 815.25 247.07227 L 843.37891 247.07227 L 871.50977 247.07227 A 28.128761 7.4038779 0 0 0 857.44336 240.66016 A 28.128761 7.4038779 0 0 0 843.37695 239.66797 A 28.128761 7.4038779 0 0 0 842.85547 239.66797 z M 821.76172 247.22656 C 817.36927 247.22656 813.83203 251.71822 813.83203 257.29883 L 813.83203 295.45508 C 813.83203 301.03569 817.36927 305.5293 821.76172 305.5293 L 865.4668 305.5293 C 869.85921 305.5293 873.39453 301.03569 873.39453 295.45508 L 873.39453 257.29883 C 873.39453 251.71822 869.85921 247.22656 865.4668 247.22656 L 821.76172 247.22656 z M 818.80859 306.40625 C 817.85732 306.40625 817.11998 307.37818 817.1543 308.58594 L 817.38867 316.84375 C 817.42269 318.05152 818.21678 319.02539 819.16797 319.02539 L 868.31445 319.02539 C 869.26565 319.02539 870.00495 318.05152 869.9707 316.84375 L 869.73438 308.58594 C 869.70036 307.37818 868.90826 306.40625 867.95703 306.40625 L 818.80859 306.40625 z "
@@ -879,7 +902,20 @@
              sodipodi:nodetypes="ccccccccc"
              d="m 170.65744,62.068359 c 5e-5,1.435362 1.17207,2.761675 3.07452,3.479346 1.90249,0.717651 4.24636,0.717651 6.14885,0 1.37667,-0.519297 2.39206,-1.366764 2.83317,-2.364617 l 1.17026,-1.122315 -0.9289,0.0076 c 9e-4,-0.03494 -6e-5,0.03496 0,0 h -6.14906 z"
              style="opacity:1;fill:#f2f2f2;fill-opacity:1;stroke:#000000;stroke-width:0.254668;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.857692;paint-order:markers stroke fill"
-             id="Crucibleinoven" />
+             id="Crucibleinoven" >
+             <animateTransform 
+             attributeName="transform"
+             attributeType="XML"
+             type="translate"
+             dur="1.5s"
+             values="0,0;-90,62"
+             visibility="hidden"
+             fill="freeze"
+             begin="Crucibleinoven.click; ovendoor.click"
+             additive="sum" 
+             
+             />
+            </path>
           <rect
              y="43.297665"
              x="154.08089"
@@ -1031,8 +1067,8 @@
         </g>
       </svg>
    </div>
-   <script src="thejs.js">
+   <!--<script src="thejs.js">
 
-   </script>
+   </script>-->
     </body>
 </html>
