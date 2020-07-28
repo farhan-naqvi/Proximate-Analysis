@@ -47,17 +47,17 @@
   <div class="slave" id="fun12">
         You will see that the iron nail now changes colour and has a layer of copper deposited over it.
   </div>
-    <div class="slave" id="fun10">
-     <p>Click on the iron nail to connect it to the negative terminal of the battery with the help of crocodile clips</p>
+    <div class="slave" id="fun11">
+     <p>Click on the crucible to transfer it to the weighing machine with the help of tongs</p>
  </div>
-  <div class="slave" id="fun11">
-     <p>Click on the copper metal plate to connect it to the positive terminal of the battery with the help of crocodile clips.</p>
+  <div class="slave" id="fun10">
+     <p>Click on the tongs to transfer the crucible to the dessicator</p>
      </div>
     <div class="slave" id="fun9">
-     <p>Now click on the battery to place it on the worktable.</p>
+     <p>Click on the oven to close the door. Wait for the clock to complete one hour.</p>
  </div>
     <div class="slave" id="fun8">
-        <p>Click sandpaper to clean the iron nail and the copper metal plate.</p>
+        <p>Click on the tongs to take the crucible to the oven</p>
     </div>
     <div class="slave" id="fun7">
         <p>Click on the cruicble to weigh it along with the coal sample</p>
@@ -511,7 +511,7 @@
           <path
              d="m 44.73828,10.061844 -0.04341,3.24528 0.100253,0.0062 v 0.02532 h 6.035808 l 0.210322,0.237195 6.488491,1.117761 a 0.69434029,0.69134235 0 0 0 0.0052,0.07131 l -6.100403,1.69447 -0.190169,0.24753 -0.08733,-0.0057 h -6.341731 l -0.04444,3.510897 0.122989,0.0083 h 6.341731 l 0.04289,-3.433382 6.344317,-1.762166 a 0.69434029,0.69134235 0 0 0 0.600995,0.345198 0.69434029,0.69134235 0 0 0 0.649058,-0.445451 l 5.472533,0.942579 -0.05013,0.130224 0.310576,-0.08527 0.08682,0.01499 -0.02791,-0.03101 6.515364,-1.788004 0.441833,0.05943 0.112655,-0.211357 0.109037,-0.28112 -0.723985,0.198438 -6.919476,-0.927592 0.03204,-0.04134 -0.111623,0.03101 -0.05323,-0.0072 -0.01395,0.02584 -5.195548,1.443323 a 0.69434029,0.69134235 0 0 0 -0.634072,-0.409794 0.69434029,0.69134235 0 0 0 -0.641821,0.427881 l -6.520015,-1.123446 0.04341,-3.223059 -0.120925,-0.0072 z m 0.119372,0.104387 h 6.125207 l -0.04134,3.067513 H 44.81683 Z m 19.184876,2.985347 6.522082,0.874365 -6.079733,1.667599 -0.09353,-0.104903 -5.430676,-0.93586 4.994011,-1.386996 z m -19.106327,3.662825 h 6.219259 l -0.04134,3.292823 h -6.218743 z"
              style="opacity:0.690096;fill:#c8b7b7;fill-opacity:1;stroke:#000000;stroke-width:0.499999;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.857692;paint-order:markers stroke fill"
-             id="tongs">
+             id="tongs" onclick= "f8()">
              <!--tongs move from the shelf to weighing balance -->
              <animateTransform 
                   attributeName="transform"
@@ -682,7 +682,7 @@
             sodipodi:nodetypes="ccccccccc"
             d="m 61.599786,80.054696 c 6.9e-5,1.361422 1.321661,2.619412 3.466964,3.300115 2.145289,0.680683 4.788358,0.680683 6.93365,0 1.55239,-0.492547 2.69738,-1.296359 3.19478,-2.242812 l 1.31964,-1.0645 -1.04746,0.0072 c 0.001,-0.03315 -6e-5,0.03316 0,0 h -6.933927 z"
             style="opacity:1;fill:#f2f2f2;fill-opacity:1;stroke:#000000;stroke-width:0.263376;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.857692;paint-order:markers stroke fill"
-            id="crucible_to_weighingmachine"  onclick="f2()">
+            id="crucible_to_weighingmachine"  onclick="f2()" display = "none">
 
             <animateTransform 
             attributeName="transform"
@@ -701,7 +701,7 @@
            sodipodi:nodetypes="ccccccccc"
            d="m 91.099786,71.354696 c 6.9e-5,1.361422 1.321661,2.619412 3.466964,3.300115 2.145289,0.680683 4.788358,0.680683 6.93365,0 1.55239,-0.492547 2.69738,-1.296359 3.19478,-2.242812 l 1.31964,-1.0645 -1.04746,0.0072 c 0.001,-0.03315 -6e-5,0.03316 0,0 h -6.933927 z"
            style="opacity:1;fill:#f2f2f2;fill-opacity:1;stroke:#000000;stroke-width:0.263376;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.857692;paint-order:markers stroke fill"
-           id="Crucibleinmachine" onclick="f3()">
+           id="Crucibleinmachine" onclick="f3()" display="none">
              <!--khali cruciblee is weighed and is sent back to the table-->
            <animateTransform 
            attributeName="transform"
@@ -720,7 +720,7 @@
              sodipodi:nodetypes="ccccccccc"
              d="m 61.999786,80.354696 c 6.9e-5,1.361422 1.321661,2.619412 3.466964,3.300115 2.145289,0.680683 4.788358,0.680683 6.93365,0 1.55239,-0.492547 2.69738,-1.296359 3.19478,-2.242812 l 1.31964,-1.0645 -1.04746,0.0072 c 0.001,-0.03315 -6e-5,0.03316 0,0 h -6.933927 z"
              style="opacity:1;fill:#f2f2f2;fill-opacity:1;stroke:#000000;stroke-width:0.263376;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.857692;paint-order:markers stroke fill"
-             id="Cruciblefilledwithpowderistakentomachine"  onclick="f3()">
+             id="Cruciblefilledwithpowderistakentomachine" onclick="f7()"display = "none">
              <animateTransform 
              attributeName="transform"
              attributeType="XML"
@@ -738,7 +738,7 @@
              sodipodi:nodetypes="ccccccccc"
              d="m 91.099786,71.354696 c 6.9e-5,1.361422 1.321661,2.619412 3.466964,3.300115 2.145289,0.680683 4.788358,0.680683 6.93365,0 1.55239,-0.492547 2.69738,-1.296359 3.19478,-2.242812 l 1.31964,-1.0645 -1.04746,0.0072 c 0.001,-0.03315 -6e-5,0.03316 0,0 h -6.933927 z"
              style="opacity:1;fill:#f2f2f2;fill-opacity:1;stroke:#000000;stroke-width:0.263376;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.857692;paint-order:markers stroke fill"
-             id="tongswilltaketofurnace"  onclick="f3()">
+             id="tongswilltaketofurnace" display = "none" onclick="f8()">
              
              <animateTransform 
                   attributeName="transform"
@@ -795,7 +795,7 @@
             -->
            
           <path
-             id="blackpowderinmachine" 
+             id="blackpowderinmachine" display="none"
              style="fill:#333333;stroke:#000000;stroke-width:0.0295644;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.857692"
              d="m 101.15948,71.295607 c -1.793055,0.223503 -3.849944,0.383184 -5.494038,-0.02055 0.789523,-0.35698 1.701734,-0.764852 2.491256,-1.121834 z">
 
@@ -879,7 +879,7 @@
              sodipodi:nodetypes="ccccccccc"
              d="m 91.099786,71.354696 c 6.9e-5,1.361422 1.321661,2.619412 3.466964,3.300115 2.145289,0.680683 4.788358,0.680683 6.93365,0 1.55239,-0.492547 2.69738,-1.296359 3.19478,-2.242812 l 1.31964,-1.0645 -1.04746,0.0072 c 0.001,-0.03315 -6e-5,0.03316 0,0 h -6.933927 z"
              style="opacity:1;fill:#f2f2f2;fill-opacity:1;stroke:#000000;stroke-width:0.263376;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.857692;paint-order:markers stroke fill"
-             id="Crucibleinmachine" onclick="f3()">
+             id="Crucibleinmachine" onclick="f3()" display = "none">
                <!--khali cruciblee is weighed and is sent back to the table-->
             <animateTransform 
              attributeName="transform"
@@ -973,7 +973,7 @@
           <path
              d="m 225.73825,76.665823 c -1.59008,0.235641 -3.41416,0.403995 -4.87215,-0.02159 0.70013,-0.376367 1.50912,-0.806391 2.20928,-1.182762 z"
              style="fill:#333333;stroke:#000000;stroke-width:0.0285867;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.857692"
-             id="blackpowderindessicator" />
+             id="blackpowderindessicator" display = "none" />
              
          
           <rect
@@ -981,14 +981,14 @@
              x="154.08089"
              height="41.293144"
              width="45.703087"
-             id="oven"
+             id="oven" onclick = "f9()"
              style="opacity:0.73482428;fill:#0086ff;fill-opacity:0.69999999;stroke:#000007;stroke-width:0.3;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.969231;paint-order:markers stroke fill" />
           <rect
              y="48.177429"
              x="160.15027"
              height="24.880997"
              width="35.091396"
-             id="rect1188"
+             id="rect1188" onclick= "f9()"
              style="opacity:1;fill:#999999;fill-opacity:1;stroke:#000007;stroke-width:0.268468;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.969231;paint-order:markers stroke fill" />
           <path
              d="m 190.97416,54.152046 c 2.5133,4.109134 2.56072,4.184531 2.56072,4.184531 m -5.59565,-4.486119 c 2.5133,4.109134 2.56072,4.184532 2.56072,4.184532 m -5.31113,-3.920643 c 2.5133,4.109134 2.56072,4.184532 2.56072,4.184532 m -6.11729,-4.410723 c 2.51331,4.109134 2.56073,4.184532 2.56073,4.184532 m -5.31113,-4.146833 c 2.5133,4.109134 2.56072,4.184532 2.56072,4.184532 m -5.50081,-4.146834 c 2.5133,4.109134 2.56073,4.184532 2.56073,4.184532 m -5.35855,-3.996039 c 2.5133,4.109134 2.56072,4.184531 2.56072,4.184531 m -12.09231,-4.109134 c 2.5133,4.109133 2.56072,4.184531 2.56072,4.184531 m 3.79366,-4.523818 c 2.5133,4.109134 2.56073,4.184532 2.56073,4.184532 m -5.83313,-4.051992 c 2.5133,4.109134 2.56073,4.184531 2.56073,4.184531 m -8.50304,-3.835736 32.08025,-0.07747 2.36639,3.642358 -32.08024,0.07747 z"
@@ -1003,10 +1003,10 @@
              x="165.30095"
              height="3.9669447"
              width="26.302124"
-             id="Display2"
+             id="Display2" onclick= "f9()"
              style="fill:#536c53;stroke:#000000;stroke-width:0.055957;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
           <path
-             id="blackpowderinoven"
+             id="blackpowderinoven" display = "none"
              style="fill:#333333;stroke:#000000;stroke-width:0.0285866;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.857692"
              d="m 179.57847,62.006063 c -1.59008,0.235641 -3.41416,0.403995 -4.87215,-0.02159 0.70013,-0.376368 1.50912,-0.806392 2.20928,-1.182763 z" />
          
@@ -1015,15 +1015,8 @@
              x="154.08089"
              height="41.426773"
              width="5.8799257"
-             id="ovendooropen"
+             id="ovendooropen" onclick="f9()"
              style="opacity:0.680511;fill:#0086ff;fill-opacity:0.69803923;stroke:#000007;stroke-width:0.3;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.623077;paint-order:markers stroke fill" />
-          <rect
-             y="43.297665"
-             x="159.96082"
-             height="41.29314"
-             width="39.823151"
-             id="ovendoor"
-             style="opacity:1;fill:#0086ff;fill-opacity:0.842308;stroke:#000007;stroke-width:0.280038;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.623077;paint-order:markers stroke fill" />
           <path
              d="m 197.59696,67.579726 a 2.1796715,2.1047246 0 0 1 -2.25575,2.028529 2.1796715,2.1047246 0 0 1 -2.10084,-2.178129 2.1796715,2.1047246 0 0 1 2.25563,-2.028666 2.1796715,2.1047246 0 0 1 2.10097,2.178002 l -2.1783,-0.0746 z"
              sodipodi:arc-type="slice"
@@ -1040,7 +1033,7 @@
              sodipodi:nodetypes="ccccccccc"
              d="m 170.65744,62.068359 c 5e-5,1.435362 1.17207,2.761675 3.07452,3.479346 1.90249,0.717651 4.24636,0.717651 6.14885,0 1.37667,-0.519297 2.39206,-1.366764 2.83317,-2.364617 l 1.17026,-1.122315 -0.9289,0.0076 c 9e-4,-0.03494 -6e-5,0.03496 0,0 h -6.14906 z"
              style="opacity:1;fill:#f2f2f2;fill-opacity:1;stroke:#000000;stroke-width:0.254668;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.857692;paint-order:markers stroke fill"
-             id="Crucibleinoven" >
+             id="Crucibleinoven"display = "none">
              <animateTransform 
              attributeName="transform"
              attributeType="XML"
@@ -1069,7 +1062,7 @@
              <path
              d="m 44.73828,10.061844 -0.04341,3.24528 0.100253,0.0062 v 0.02532 h 6.035808 l 0.210322,0.237195 6.488491,1.117761 a 0.69434029,0.69134235 0 0 0 0.0052,0.07131 l -6.100403,1.69447 -0.190169,0.24753 -0.08733,-0.0057 h -6.341731 l -0.04444,3.510897 0.122989,0.0083 h 6.341731 l 0.04289,-3.433382 6.344317,-1.762166 a 0.69434029,0.69134235 0 0 0 0.600995,0.345198 0.69434029,0.69134235 0 0 0 0.649058,-0.445451 l 5.472533,0.942579 -0.05013,0.130224 0.310576,-0.08527 0.08682,0.01499 -0.02791,-0.03101 6.515364,-1.788004 0.441833,0.05943 0.112655,-0.211357 0.109037,-0.28112 -0.723985,0.198438 -6.919476,-0.927592 0.03204,-0.04134 -0.111623,0.03101 -0.05323,-0.0072 -0.01395,0.02584 -5.195548,1.443323 a 0.69434029,0.69134235 0 0 0 -0.634072,-0.409794 0.69434029,0.69134235 0 0 0 -0.641821,0.427881 l -6.520015,-1.123446 0.04341,-3.223059 -0.120925,-0.0072 z m 0.119372,0.104387 h 6.125207 l -0.04134,3.067513 H 44.81683 Z m 19.184876,2.985347 6.522082,0.874365 -6.079733,1.667599 -0.09353,-0.104903 -5.430676,-0.93586 4.994011,-1.386996 z m -19.106327,3.662825 h 6.219259 l -0.04134,3.292823 h -6.218743 z"
              style="opacity:0.690096;fill:#c8b7b7;fill-opacity:1;stroke:#000000;stroke-width:0.499999;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.857692;paint-order:markers stroke fill"
-             id="tongs3">
+             id="tongs3" display = "none" onclick= "f10()">
             <!--  tongs move from shelf to dessicator -->
               <animateTransform 
                   attributeName="transform"
@@ -1109,7 +1102,7 @@
                   />
                   </path> 
                   <path
-             id="Crucibleindessicator"
+             id="Crucibleindessicator" display = "none"
              style="opacity:1;fill:#f2f2f2;fill-opacity:1;stroke:#000000;stroke-width:0.254668;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.857692;paint-order:markers stroke fill"
              d="m 216.81722,76.728119 c 5e-5,1.435362 1.17207,2.761675 3.07452,3.479346 1.90249,0.717651 4.24636,0.717651 6.14885,0 1.37667,-0.519297 2.39206,-1.366764 2.83317,-2.364617 l 1.17026,-1.122315 -0.9289,0.0076 c 8.9e-4,-0.03494 -6e-5,0.03496 0,0 h -6.14906 z"
              sodipodi:nodetypes="ccccccccc" >
@@ -1251,11 +1244,18 @@
             
              />
              </rect>
+             <rect
+             y="43.297665"
+             x="159.96082"
+             height="41.29314"
+             width="39.823151"
+             id="ovendoor"
+             style="opacity:1;fill:#0086ff;fill-opacity:0.842308;stroke:#000007;stroke-width:0.280038;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.623077;paint-order:markers stroke fill" />
         </g>
       </svg>
    </div>
-   <!--<script src="thejs.js">
+   <script src="thejs.js">
 
-   </script>-->
+   </script>
     </body>
 </html>

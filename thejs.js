@@ -89,6 +89,95 @@ function f6()
     {
         setTimeout((function(){
             document.getElementById("fun6").style.display= "none"
+            document.getElementById("Cruciblefilledwithpowderistakentomachine").style.display= "block"
+            document.getElementById("Crucibleinmachine").style.display= "none"
+            document.getElementById("fancyspoon1").style.display= "none"
         }), (1000))
+    }
+    else
+    {
+        alert("You have clicked on the wrong apparatus. Please follow the instructions given above.Refresh to avoid errors")
+    }
+}
+
+function f7()
+{
+    c= c+1
+    if (c==7)
+    {   
+        setTimeout((function(){
+            document.getElementById("Cruciblefilledwithpowderistakentomachine").style.display= "none"
+            document.getElementById("fun7").style.display= "none"
+            document.getElementById("tongswilltaketofurnace").style.display= "block"
+        }), (1000))
+    }
+    else
+    {
+        alert("You have clicked on the wrong apparatus. Please follow the instructions given above.Refresh to avoid errors")
+    }
+}
+
+function f8()
+{
+    c= c+1
+    if (c==8)
+    {   
+        setTimeout((function(){
+            document.getElementById("tongswilltaketofurnace").style.display= "none"
+            document.getElementById("fun8").style.display= "none"
+            document.getElementById("Crucibleinoven").style.display ="block"
+            document.getElementById("blackpowderinoven").style.display ="block"
+            document.getElementById("ovendoor").style.display ="none"
+            document.getElementById("ovendoorknob").style.display ="none"
+            document.getElementById("tongs").style.display ="none"
+        }), (4000))
+    }
+    else
+    {
+        alert("You have clicked on the wrong apparatus. Please follow the instructions given above.Refresh to avoid errors")
+    }
+}
+
+function f9()
+{
+    c= c+1
+    if (c==9)
+    {   
+        setTimeout((function(){
+            document.getElementById("fun9").style.display= "none"
+            document.getElementById("Crucibleinoven").style.display ="block"
+            document.getElementById("blackpowderinoven").style.display ="block"
+            document.getElementById("ovendoor").style.display ="block"
+            document.getElementById("ovendoorknob").style.display ="block"
+            document.getElementById("tongs3").style.display ="block"
+        }), (0000))
+    }
+    else
+    {
+        alert("You have clicked on the wrong apparatus. Please follow the instructions given above.Refresh to avoid errors")
+    }
+}
+
+function f10()
+{
+    c= c+1
+    if (c==10)
+    {   
+        document.getElementById("ovendoor").style.display ="none"
+        document.getElementById("ovendoorknob").style.display ="none"
+        setTimeout((function(){
+            document.getElementById("fun10").style.display= "none"
+            document.getElementById("ovendoor").style.display ="block"
+            document.getElementById("ovendoorknob").style.display ="block"
+            //document.getElementById("tongs3").style.display ="none"
+            document.getElementById("Crucibleindessicator").style.display="block"
+            document.getElementById("blackpowderindessicator").style.display="block"
+            document.getElementById("Crucibleinoven").style.display="none"
+            document.getElementById("blackpowderinoven").style.display="none"
+        }), (4000))
+    }
+    else
+    {
+        alert("You have clicked on the wrong apparatus. Please follow the instructions given above.Refresh to avoid errors")
     }
 }
