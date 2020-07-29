@@ -169,12 +169,79 @@ function f10()
             document.getElementById("fun10").style.display= "none"
             document.getElementById("ovendoor").style.display ="block"
             document.getElementById("ovendoorknob").style.display ="block"
-            //document.getElementById("tongs3").style.display ="none"
             document.getElementById("Crucibleindessicator").style.display="block"
             document.getElementById("blackpowderindessicator").style.display="block"
             document.getElementById("Crucibleinoven").style.display="none"
             document.getElementById("blackpowderinoven").style.display="none"
         }), (4000))
+    }
+    else
+    {
+        alert("You have clicked on the wrong apparatus. Please follow the instructions given above.Refresh to avoid errors")
+    }
+}
+
+function f11()
+{
+    c= c+1
+    if (c==11)
+    {   
+        setTimeout((function(){
+            document.getElementById("Crucibleindessicator").style.display="none"
+            document.getElementById("Crucibleindessicatortofurnace").style.display="block"
+            document.getElementById("fun11").style.display= "none"
+            document.getElementById("tongs3").style.display ="none"
+            document.getElementById("tongs4").style.display ="block"
+
+        }), (2000))
+    }
+    else
+    {
+        alert("You have clicked on the wrong apparatus. Please follow the instructions given above.Refresh to avoid errors")
+    }
+}
+
+function f12()
+{
+    c= c+1
+    if (c==12)
+    {  
+        document.getElementById("fun12").style.display= "none"
+    }
+    else
+    {
+        alert("You have clicked on the wrong apparatus. Please follow the instructions given above.Refresh to avoid errors")
+    }
+}
+
+function f13()
+{
+    c= c+1
+    if (c==13)
+    {   
+        document.getElementById("YashKale").style.display= "none"
+        setTimeout((function(){
+            document.getElementById("furnacedoor").style.display ="none"
+            document.getElementById("furnacedoorknob").style.display ="none"
+            document.getElementById("Crucibleindessicatortofurnace").style.display="none"
+            document.getElementById("tongs4").style.display="none"
+
+        }), (6000))
+    }
+    else
+    {
+        alert("You have clicked on the wrong apparatus. Please follow the instructions given above.Refresh to avoid errors")
+    }
+}
+
+function f14()
+{
+    c= c+1
+    if (c==14)
+    {   
+        document.getElementById("fun14").style.display= "none"
+        document.getElementById("furnacedoor").style.display ="block"
+        document.getElementById("furnacedoorknob").style.display ="block"
     }
     else
     {
