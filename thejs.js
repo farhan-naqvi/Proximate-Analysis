@@ -336,6 +336,46 @@ function f18()
             document.getElementById("CrucibleindessicatortoWM").style.display="none"
             document.getElementById("blackpowderDtoWM").style.display="none"
         }), (3000))
+        setTimeout((function(){
+            document.getElementById("furnacedoor").style.display ="block"
+            document.getElementById("blackpowderinfurnace2").style.display="none"
+            document.getElementById("Crucibleinfurnace2").style.display="none"
+            document.getElementById("tongs5").style.display = "none"
+            document.getElementById("tongs6").style.display = "block"
+            document.getElementById("furnacedoorknob").style.display ="block"
+        }), (5000))
+        setTimeout((function(){
+            document.getElementById("furnacedoor").style.display ="none"
+            document.getElementById("tongs5").style.display = "none"
+            document.getElementById("furnacedoorknob").style.display ="none"
+            document.getElementById("blackpowderinfurnace2").style.display="block"
+            document.getElementById("Crucibleinfurnace2").style.display="block"
+        }), (10000))
+        setTimeout((function(){
+            document.getElementById("furnacedoor").style.display ="block"
+            document.getElementById("furnacedoorknob").style.display ="block"
+        }), (1800))
+    }
+    
+    else
+    {
+        alert("You have clicked on the wrong apparatus. Please follow the instructions given above.Refresh to avoid errors")
+    }
+}
+
+function f19()
+{
+    c= c+1
+    if (c==19)
+    {   
+        document.getElementById("fun19").style.display= "none"
+        setTimeout((function(){
+            document.getElementById("blackpowderinfurnace2").style.display="none"
+            document.getElementById("Crucibleinfurnace2").style.display="none"
+            document.getElementById("CrucibleindessicatortoWM2").style.display="block"
+            document.getElementById("blackpowderDtoWM2").style.display="block"
+
+        }), (3000))
     }
     else
     {
@@ -343,4 +383,20 @@ function f18()
     }
 }
 
+function f20()
+{
+    c= c+1
+    if (c==20)
+    {   
+        document.getElementById("fun20").style.display= "none"
+        setTimeout((function(){
+
+
+        }), (3000))
+    }
+    else
+    {
+        alert("You have clicked on the wrong apparatus. Please follow the instructions given above.Refresh to avoid errors")
+    }
+}
 
