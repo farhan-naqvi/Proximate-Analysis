@@ -86,8 +86,10 @@ function f6()
 {
     c= c+1
     if (c==6)
-    {
+    {      
         setTimeout((function(){
+            document.getElementById("blackpowder").style.display = "none"
+            document.getElementById("blackpowderinmachine").style.display = "block"
             document.getElementById("fun6").style.display= "none"
             document.getElementById("Cruciblefilledwithpowderistakentomachine").style.display= "block"
             document.getElementById("Crucibleinmachine").style.display= "none"
@@ -109,7 +111,7 @@ function f7()
             document.getElementById("Cruciblefilledwithpowderistakentomachine").style.display= "none"
             document.getElementById("fun7").style.display= "none"
             document.getElementById("tongswilltaketofurnace").style.display= "block"
-        }), (1000))
+        }), (1800))
     }
     else
     {
@@ -130,6 +132,7 @@ function f8()
             document.getElementById("ovendoor").style.display ="none"
             document.getElementById("ovendoorknob").style.display ="none"
             document.getElementById("tongs").style.display ="none"
+            document.getElementById("blackpowderinmachine").style.display ="none"
         }), (4000))
     }
     else
@@ -207,6 +210,11 @@ function f12()
     if (c==12)
     {  
         document.getElementById("fun12").style.display= "none"
+        document.getElementById("cruciblelid").style.display = "none"
+        document.getElementById("smollid").style.display = "block"
+        setTimeout((function(){
+            document.getElementById("blackpowderindessicator").style.display = "none"
+        }), (800))
     }
     else
     {
@@ -224,7 +232,10 @@ function f13()
             document.getElementById("furnacedoor").style.display ="none"
             document.getElementById("furnacedoorknob").style.display ="none"
             document.getElementById("Crucibleindessicatortofurnace").style.display="none"
-            document.getElementById("tongs4").style.display="none"
+            //document.getElementById("tongs4").style.display="none"
+            document.getElementById("Crucibleinfurnace").style.display="block"
+            document.getElementById("blackpowderinfurnace").style.display="block"
+
 
         }), (6000))
     }
@@ -239,6 +250,9 @@ function f14()
     c= c+1
     if (c==14)
     {   
+        document.getElementById("Crucibleinfurnace").style.display="none"
+        document.getElementById("blackpowderinfurnace").style.display="none"
+        document.getElementById("smollid").style.display="none"
         document.getElementById("fun14").style.display= "none"
         document.getElementById("furnacedoor").style.display ="block"
         document.getElementById("furnacedoorknob").style.display ="block"
@@ -248,3 +262,85 @@ function f14()
         alert("You have clicked on the wrong apparatus. Please follow the instructions given above.Refresh to avoid errors")
     }
 }
+
+function f15()
+{
+    c= c+1
+    if (c==15)
+    {   
+        document.getElementById("fun15").style.display= "none"
+        document.getElementById("furnacedoor").style.display ="none"
+        document.getElementById("furnacedoorknob").style.display ="none"
+        document.getElementById("Crucibleinfurnace").style.display="block"
+        document.getElementById("blackpowderinfurnace").style.display="block"
+        //document.getElementById("smollid").style.display="block"
+
+    }
+    else 
+    {
+        alert("You have clicked on the wrong apparatus. Please follow the instructions given above.Refresh to avoid errors")
+    }
+}
+
+function f16()
+{
+    c= c+1
+    if (c==16)
+    {   
+        document.getElementById("smollid").style.display="none"
+        document.getElementById("fun16").style.display= "none"
+        setTimeout((function(){
+            //document.getElementById("cruciblelid").style.display = "block"
+            document.getElementById("furnacedoor").style.display ="block"
+            document.getElementById("furnacedoorknob").style.display ="block"
+            document.getElementById("CrucibleindessicatortoWM").style.display="block"
+            document.getElementById("blackpowderDtoWM").style.display="block"
+            document.getElementById("Crucibleinfurnace").style.display="none"
+            document.getElementById("blackpowderinfurnace").style.display="none"
+            document.getElementById("tongs4").style.display="none"
+            document.getElementById("tongs5").style.display="block"
+           }), (1000))
+    }
+    else
+    {
+        alert("You have clicked on the wrong apparatus. Please follow the instructions given above.Refresh to avoid errors")
+    }
+}
+
+function f17()
+{
+    c= c+1
+    if (c==17)
+    {   
+        document.getElementById("fun17").style.display= "none"
+        setTimeout((function(){
+        }), (3000))
+    }
+    else
+    {
+        alert("You have clicked on the wrong apparatus. Please follow the instructions given above.Refresh to avoid errors")
+    }
+}
+
+function f18()
+{
+    c= c+1
+    if (c==18)
+    {   
+        document.getElementById("fun18").style.display= "none"
+        setTimeout((function(){
+            document.getElementById("blackpowderinfurnace2").style.display="block"
+            document.getElementById("Crucibleinfurnace2").style.display="block"
+            document.getElementById("furnacedoor").style.display ="none"
+            document.getElementById("furnacedoorknob").style.display ="none"
+            document.getElementById("CrucibleindessicatortoWM").style.display="none"
+            document.getElementById("blackpowderDtoWM").style.display="none"
+        }), (3000))
+    }
+    else
+    {
+        alert("You have clicked on the wrong apparatus. Please follow the instructions given above.Refresh to avoid errors")
+    }
+}
+
+

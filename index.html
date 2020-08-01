@@ -31,21 +31,20 @@
     </head>
     <body style="background-color: #63796c; overflow: hidden;">
 
-        
-     <div class="slave">
-        Hello world
-    </div>
-    <div class="slave">
-           Hello world
-     </div>
-     <div class="slave">
-        
-  </div>
- <div class="slave" style="font-size: small; font-family: 'Times New Roman', Times, serif;" id="fun13">
-      In the process of electroplating base metal is made cathode by connecting it to –ve terminal of the D.C. battery, while coating metal is made anode by connecting it to +ve terminal of the battery. Anode and cathode are immersed in the electrolytic solution containing ions of coating metal (in case of copper coating CuSO4 solution is used as electrolytic solution). During the process the anode undergoes oxidation and goes into electrolytic solution in the cationic state, the cations of coating metal travels to cathode through electrolytic solution and gets deposited on the cathode by accepting the electrons.
-  </div>
+      <div class="slave" id="fun19">
+         <p><p>
+      </div>
+      <div class="slave" id="fun18">
+         <p>Click on the tongs to take the crucible to the furnace<p>
+      </div>
+      <div class="slave" id="fun17">
+         <p>Click on the crucible in the dessicator to take it to the weighing machine<p>
+      </div>
+      <div class="slave" id="fun16">
+         <p>Click on the crucible in the furnace to take it to the dessicator<p>
+      </div>
   <div class="slave" id="fun15">
-   <p>Yash is Lord<p>
+   <p>Click on the furnace again to open it<p>
 </div>
    <div class="slave" id="fun14">
       <p>Click on the furnace to close it. Wait for seven minutes<p>
@@ -806,7 +805,7 @@
             -->
            
           <path
-             id="blackpowderinmachine"  
+             id="blackpowderinmachine"  display = "none"
              style="fill:#333333;stroke:#000000;stroke-width:0.0295644;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.857692"
              d="m 71.15948,80.295607 c -1.793055,0.223503 -3.849944,0.383184 -5.494038,-0.02055 0.789523,-0.35698 1.701734,-0.764852 2.491256,-1.121834 z">
             
@@ -1206,10 +1205,10 @@
           <path
              d="m 255.01133,59.795834 v 24.889954 h 32.9215 V 59.795834 Z"
              style="opacity:1;fill:#b3b3b3;fill-opacity:1;stroke:none;stroke-width:0.330999;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
-             id="furnacedoor" />
+             id="furnacedoor" onclick= " f15()"/>
           <path
              style="opacity:1;fill:#280b0b;fill-opacity:1;stroke:none;stroke-width:0.244695;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.623077;paint-order:markers stroke fill"
-             id="furnacedoorknob"
+             id="furnacedoorknob" onclick = " f15()"
              sodipodi:type="arc"
              sodipodi:cx="285.02957"
              sodipodi:cy="74.087112"
@@ -1375,7 +1374,7 @@
             <path
             d="m 96.503039,37.6471299 v 1.681647 h 1.66171 v -1.681647 z m -2.80193,2.217426 a 6.7902181,2.1091588 0 0 0 -3.39534,1.8266001 h 6.79037 6.79037 a 6.7902181,2.1091588 0 0 0 -3.39536,-1.8266001 6.7902181,2.1091588 0 0 0 -6.79004,0 z"
             style="opacity:1;fill:#f2f2f2;fill-opacity:1;stroke:#000000;stroke-width:0.286356;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.857692;paint-order:markers stroke fill"
-            id="smollid" >
+            id="smollid" display = "none" >
             <animateTransform 
                  attributeName="transform"
                  attributeType="XML"
@@ -1393,7 +1392,7 @@
                  sodipodi:nodetypes="ccccccccc"
                  d="m 263.77651,74.900535 c 5e-5,1.435362 1.17207,2.761675 3.07452,3.479346 1.90249,0.717651 4.24636,0.717651 6.14885,0 1.37667,-0.519297 2.39206,-1.366764 2.83317,-2.364617 l 1.17026,-1.122315 -0.9289,0.0076 c 9e-4,-0.03494 -6e-5,0.03496 0,0 h -6.14906 z"
                  style="opacity:1;fill:#f2f2f2;fill-opacity:1;stroke:#000000;stroke-width:0.254668;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.857692;paint-order:markers stroke fill"
-                 id="Crucibleinfurnace" >
+                 id="Crucibleinfurnace" display = "none" onclick = "f16()">
                  <animateTransform 
                       attributeName="transform"
                       attributeType="XML"
@@ -1409,7 +1408,7 @@
                       </path>
 
                  <path
-             id="blackpowderinfurnace"
+             id="blackpowderinfurnace" display = "none"
              style="fill:#333333;stroke:#000000;stroke-width:0.0285866;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.857692"
              d="m 272.69754,74.838239 c -1.59008,0.235641 -3.41416,0.403995 -4.87215,-0.02159 0.70013,-0.376367 1.50912,-0.806391 2.20928,-1.182762 z" >
              <!--  BLACKPOWDER moves from furnace to dessicator (step2) -->
@@ -1429,9 +1428,9 @@
 
                   <path
             
-             id="CrucibleindessicatortoWM"   
+             id="CrucibleindessicatortoWM"   onclick = " f17()"
              
-             
+             display = "none"
              style="opacity:1;fill:#f2f2f2;fill-opacity:1;stroke:#000000;stroke-width:0.254668;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.857692;paint-order:markers stroke fill" 
              d="m 217.099786,76.354696 c 5e-5,1.435362 1.17207,2.761675 3.07452,3.479346 1.90249,0.717651 4.24636,0.717651 6.14885,0 1.37667,-0.519297 2.39206,-1.366764 2.83317,-2.364617 l 1.17026,-1.122315 -0.9289,0.0076 c 8.9e-4,-0.03494 -6e-5,0.03496 0,0 h -6.14906 z"
              sodipodi:nodetypes="ccccccccc" >
@@ -1464,7 +1463,7 @@
              <path
              d= "m 225.099786,76.354696 c -1.437576,0.367032 -3.086676,0.629257 -4.404824,-0.03374 0.632998,-0.586226 1.36436,-1.256024 1.997357,-1.842252 z"
              style="fill:#333333;stroke:#000000;stroke-width:0.0339232;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.85769236"
-             id="blackpowderDtoWM" >
+             id="blackpowderDtoWM" display = "none" onclick= " f17()">
             
                <!--black powder moves from dessi to weighing machine-->
               
@@ -1496,7 +1495,7 @@
                  <path
              d="m 44.73828,10.061844 -0.04341,3.24528 0.100253,0.0062 v 0.02532 h 6.035808 l 0.210322,0.237195 6.488491,1.117761 a 0.69434029,0.69134235 0 0 0 0.0052,0.07131 l -6.100403,1.69447 -0.190169,0.24753 -0.08733,-0.0057 h -6.341731 l -0.04444,3.510897 0.122989,0.0083 h 6.341731 l 0.04289,-3.433382 6.344317,-1.762166 a 0.69434029,0.69134235 0 0 0 0.600995,0.345198 0.69434029,0.69134235 0 0 0 0.649058,-0.445451 l 5.472533,0.942579 -0.05013,0.130224 0.310576,-0.08527 0.08682,0.01499 -0.02791,-0.03101 6.515364,-1.788004 0.441833,0.05943 0.112655,-0.211357 0.109037,-0.28112 -0.723985,0.198438 -6.919476,-0.927592 0.03204,-0.04134 -0.111623,0.03101 -0.05323,-0.0072 -0.01395,0.02584 -5.195548,1.443323 a 0.69434029,0.69134235 0 0 0 -0.634072,-0.409794 0.69434029,0.69134235 0 0 0 -0.641821,0.427881 l -6.520015,-1.123446 0.04341,-3.223059 -0.120925,-0.0072 z m 0.119372,0.104387 h 6.125207 l -0.04134,3.067513 H 44.81683 Z m 19.184876,2.985347 6.522082,0.874365 -6.079733,1.667599 -0.09353,-0.104903 -5.430676,-0.93586 4.994011,-1.386996 z m -19.106327,3.662825 h 6.219259 l -0.04134,3.292823 h -6.218743 z"
              style="opacity:0.690096;fill:#c8b7b7;fill-opacity:1;stroke:#000000;stroke-width:0.499999;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.857692;paint-order:markers stroke fill"
-             id="tongs5" >
+             id="tongs5" display = "none" onclick ="f18()">
             <!--  tongs move crucible to furnace (step2) -->
             <animateTransform 
             attributeName="transform"
@@ -1533,7 +1532,7 @@
                  sodipodi:nodetypes="ccccccccc"
                  d="m 263.77651,74.900535 c 5e-5,1.435362 1.17207,2.761675 3.07452,3.479346 1.90249,0.717651 4.24636,0.717651 6.14885,0 1.37667,-0.519297 2.39206,-1.366764 2.83317,-2.364617 l 1.17026,-1.122315 -0.9289,0.0076 c 9e-4,-0.03494 -6e-5,0.03496 0,0 h -6.14906 z"
                  style="opacity:1;fill:#f2f2f2;fill-opacity:1;stroke:#000000;stroke-width:0.254668;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.857692;paint-order:markers stroke fill"
-                 id="Crucibleinfurnace2" >
+                 id="Crucibleinfurnace2" display = "none">
                  <animateTransform 
                       attributeName="transform"
                       attributeType="XML"
@@ -1549,7 +1548,7 @@
                       </path>
 
                  <path
-             id="blackpowderinfurnace2"
+             id="blackpowderinfurnace2" display = "none"
              style="fill:#333333;stroke:#000000;stroke-width:0.0285866;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.857692"
              d="m 272.69754,74.838239 c -1.59008,0.235641 -3.41416,0.403995 -4.87215,-0.02159 0.70013,-0.376367 1.50912,-0.806391 2.20928,-1.182762 z" >
              <animateTransform 
@@ -1569,7 +1568,7 @@
                   <path
             
              id="CrucibleindessicatortoWM2"   
-             
+             display = "none"
              style="opacity:1;fill:#f2f2f2;fill-opacity:1;stroke:#000000;stroke-width:0.254668;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.857692;paint-order:markers stroke fill" 
              d="m 217.099786,76.354696 c 5e-5,1.435362 1.17207,2.761675 3.07452,3.479346 1.90249,0.717651 4.24636,0.717651 6.14885,0 1.37667,-0.519297 2.39206,-1.366764 2.83317,-2.364617 l 1.17026,-1.122315 -0.9289,0.0076 c 8.9e-4,-0.03494 -6e-5,0.03496 0,0 h -6.14906 z"
              sodipodi:nodetypes="ccccccccc" >
@@ -1601,7 +1600,7 @@
              <path
              d= "m 225.099786,76.354696 c -1.437576,0.367032 -3.086676,0.629257 -4.404824,-0.03374 0.632998,-0.586226 1.36436,-1.256024 1.997357,-1.842252 z"
              style="fill:#333333;stroke:#000000;stroke-width:0.0339232;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.85769236"
-             id="blackpowderDtoWM2" >
+             id="blackpowderDtoWM2" display = "none">
             
                <!--jar se crucible tak-->
               
@@ -1633,7 +1632,7 @@
                  <path
              d="m 44.73828,10.061844 -0.04341,3.24528 0.100253,0.0062 v 0.02532 h 6.035808 l 0.210322,0.237195 6.488491,1.117761 a 0.69434029,0.69134235 0 0 0 0.0052,0.07131 l -6.100403,1.69447 -0.190169,0.24753 -0.08733,-0.0057 h -6.341731 l -0.04444,3.510897 0.122989,0.0083 h 6.341731 l 0.04289,-3.433382 6.344317,-1.762166 a 0.69434029,0.69134235 0 0 0 0.600995,0.345198 0.69434029,0.69134235 0 0 0 0.649058,-0.445451 l 5.472533,0.942579 -0.05013,0.130224 0.310576,-0.08527 0.08682,0.01499 -0.02791,-0.03101 6.515364,-1.788004 0.441833,0.05943 0.112655,-0.211357 0.109037,-0.28112 -0.723985,0.198438 -6.919476,-0.927592 0.03204,-0.04134 -0.111623,0.03101 -0.05323,-0.0072 -0.01395,0.02584 -5.195548,1.443323 a 0.69434029,0.69134235 0 0 0 -0.634072,-0.409794 0.69434029,0.69134235 0 0 0 -0.641821,0.427881 l -6.520015,-1.123446 0.04341,-3.223059 -0.120925,-0.0072 z m 0.119372,0.104387 h 6.125207 l -0.04134,3.067513 H 44.81683 Z m 19.184876,2.985347 6.522082,0.874365 -6.079733,1.667599 -0.09353,-0.104903 -5.430676,-0.93586 4.994011,-1.386996 z m -19.106327,3.662825 h 6.219259 l -0.04134,3.292823 h -6.218743 z"
              style="opacity:0.690096;fill:#c8b7b7;fill-opacity:1;stroke:#000000;stroke-width:0.499999;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.857692;paint-order:markers stroke fill"
-             id="tongs6" >
+             id="tongs6" display = "none" >
             <!--  tongs move crucible to furnace (step3) -->
             <animateTransform 
             attributeName="transform"
