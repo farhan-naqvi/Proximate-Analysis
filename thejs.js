@@ -235,6 +235,7 @@ function f13()
             //document.getElementById("tongs4").style.display="none"
             document.getElementById("Crucibleinfurnace").style.display="block"
             document.getElementById("blackpowderinfurnace").style.display="block"
+            document.getElementById("blackpowderinfurnace").style.display="none"
 
 
         }), (6000))
@@ -268,11 +269,12 @@ function f15()
     c= c+1
     if (c==15)
     {   
+        document.getElementById("smollid").style.display="block"
         document.getElementById("fun15").style.display= "none"
         document.getElementById("furnacedoor").style.display ="none"
         document.getElementById("furnacedoorknob").style.display ="none"
         document.getElementById("Crucibleinfurnace").style.display="block"
-        document.getElementById("blackpowderinfurnace").style.display="block"
+        //
         //document.getElementById("smollid").style.display="block"
 
     }
@@ -288,8 +290,10 @@ function f16()
     if (c==16)
     {   
         document.getElementById("smollid").style.display="none"
+        document.getElementById("blackpowderinfurnace").style.display="block"
         document.getElementById("fun16").style.display= "none"
         setTimeout((function(){
+
             //document.getElementById("cruciblelid").style.display = "block"
             document.getElementById("furnacedoor").style.display ="block"
             document.getElementById("furnacedoorknob").style.display ="block"
@@ -299,6 +303,7 @@ function f16()
             document.getElementById("blackpowderinfurnace").style.display="none"
             document.getElementById("tongs4").style.display="none"
             document.getElementById("tongs5").style.display="block"
+            document.getElementById("smollid").style.display="none"
            }), (1000))
     }
     else
@@ -329,12 +334,12 @@ function f18()
     {   
         document.getElementById("fun18").style.display= "none"
         setTimeout((function(){
+            document.getElementById("blackpowderDtoWM1").style.display="none"
             document.getElementById("blackpowderinfurnace2").style.display="block"
             document.getElementById("Crucibleinfurnace2").style.display="block"
             document.getElementById("furnacedoor").style.display ="none"
             document.getElementById("furnacedoorknob").style.display ="none"
             document.getElementById("CrucibleindessicatortoWM").style.display="none"
-            document.getElementById("blackpowderDtoWM").style.display="none"
         }), (3000))
         setTimeout((function(){
             document.getElementById("furnacedoor").style.display ="block"
@@ -354,7 +359,7 @@ function f18()
         setTimeout((function(){
             document.getElementById("furnacedoor").style.display ="block"
             document.getElementById("furnacedoorknob").style.display ="block"
-        }), (1800))
+        }), (18000))
     }
     
     else
