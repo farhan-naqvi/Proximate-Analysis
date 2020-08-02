@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   sodipodi:docname="clock.svg"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
+   id="svg8"
+   version="1.1"
+   viewBox="0 0 210 297"
+   height="297mm"
+   width="210mm">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     inkscape:window-maximized="0"
+     inkscape:window-y="0"
+     inkscape:window-x="76"
+     inkscape:window-height="1020"
+     inkscape:window-width="1624"
+     showgrid="false"
+     inkscape:document-rotation="0"
+     inkscape:current-layer="layer1"
+     inkscape:document-units="mm"
+     inkscape:cy="271.89433"
+     inkscape:cx="372.96475"
+     inkscape:zoom="0.98994949"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1"
+     inkscape:groupmode="layer"
+     inkscape:label="Layer 1">
+    <ellipse
+       ry="49.233315"
+       rx="56.755844"
+       cy="60.049377"
+       cx="101.5603"
+       id="clock"
+       style="opacity:0.817891;fill:#ececec;stroke:#000000;stroke-width:1.2732;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:markers stroke fill" />
+    <rect
+       y="11.168509"
+       x="98.618225"
+       height="4.3820825"
+       width="1.7836641"
+       id="twelve"
+       style="opacity:0.817891;fill:#1a1a1a;stroke:#000000;stroke-width:1.2732;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:markers stroke fill" />
+    <rect
+       transform="matrix(0.90097719,0.43386645,-0.50276172,0.86442504,0,0)"
+       style="opacity:0.817891;fill:#1a1a1a;stroke:#000000;stroke-width:1.20154;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:markers stroke fill"
+       id="one"
+       width="1.4753852"
+       height="4.7182064"
+       x="119.03516"
+       y="-40.636211" />
+    <rect
+       transform="matrix(0.62980249,0.77675531,-0.83026406,0.55737025,0,0)"
+       style="opacity:0.817891;fill:#1a1a1a;stroke:#000000;stroke-width:1.27579;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:markers stroke fill"
+       id="two"
+       width="1.6813768"
+       height="4.6675944"
+       x="111.30645"
+       y="-94.906876" />
+    <rect
+       transform="matrix(-0.01871524,0.99982485,-0.99987993,-0.01549626,0,0)"
+       style="opacity:0.817891;fill:#1a1a1a;stroke:#000000;stroke-width:1.2732;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:markers stroke fill"
+       id="three"
+       width="1.6230423"
+       height="4.815773"
+       x="56.613384"
+       y="-160.08885" />
+    <rect
+       inkscape:transform-center-y="0.81149595"
+       inkscape:transform-center-x="-1.4269304"
+       transform="matrix(-0.58008718,0.8145544,-0.8614082,-0.50791329,0,0)"
+       style="opacity:0.817891;fill:#1a1a1a;stroke:#000000;stroke-width:1.27556;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:markers stroke fill"
+       id="four"
+       width="1.6721169"
+       height="4.6917815"
+       x="-7.5269585"
+       y="-172.78764" />
+    <rect
+       transform="matrix(-0.89860006,0.43876866,-0.50798375,-0.86136665,0,0)"
+       style="opacity:0.817891;fill:#1a1a1a;stroke:#000000;stroke-width:1.27517;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:markers stroke fill"
+       id="five"
+       width="1.7490232"
+       height="4.482718"
+       x="-64.862373"
+       y="-149.54916" />
+    <rect
+       style="opacity:0.817891;fill:#1a1a1a;stroke:#000000;stroke-width:1.2732;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:markers stroke fill"
+       id="six"
+       width="1.7836641"
+       height="4.3820825"
+       x="103.25577"
+       y="104.40948" />
+    <rect
+       transform="matrix(0.66495314,-0.74688508,0.80494478,0.59334973,0,0)"
+       style="opacity:0.817891;fill:#1a1a1a;stroke:#000000;stroke-width:1.27591;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:markers stroke fill"
+       id="eleven"
+       width="1.6884863"
+       height="4.6488476"
+       x="24.677166"
+       y="64.762032" />
+    <rect
+       inkscape:transform-center-y="-1.6229924"
+       inkscape:transform-center-x="2.1403962"
+       transform="matrix(0.69163451,-0.72224768,0.78358957,0.62127883,0,0)"
+       style="opacity:0.817891;fill:#1a1a1a;stroke:#000000;stroke-width:1.27598;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:markers stroke fill"
+       id="ten"
+       width="1.6942054"
+       height="4.6336546"
+       x="4.3554344"
+       y="62.721645" />
+    <rect
+       transform="matrix(-0.02322511,-0.99973026,0.99981507,-0.01923101,0,0)"
+       style="opacity:0.817891;fill:#1a1a1a;stroke:#000000;stroke-width:1.2732;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:markers stroke fill"
+       id="nine"
+       width="1.6230688"
+       height="4.8157082"
+       x="-60.590847"
+       y="43.282551" />
+    <rect
+       transform="matrix(0.59675279,0.80242514,-0.85152323,0.52431687,0,0)"
+       style="opacity:0.817891;fill:#1a1a1a;stroke:#000000;stroke-width:1.27564;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:markers stroke fill"
+       id="eight"
+       width="1.6751194"
+       height="4.6839676"
+       x="97.26136"
+       y="3.1687827" />
+    <rect
+       transform="matrix(0.88204542,0.47116439,-0.54213199,0.84029335,0,0)"
+       style="opacity:0.817891;fill:#1a1a1a;stroke:#000000;stroke-width:1.27536;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:markers stroke fill"
+       id="seven"
+       width="1.7438953"
+       height="4.4972591"
+       x="117.56345"
+       y="51.637089" />
+    <ellipse
+       ry="1.8664426"
+       rx="2.2295802"
+       cy="60.588661"
+       cx="101.73964"
+       id="gears"
+       style="opacity:0.817891;fill:#1a1a1a;stroke:#000000;stroke-width:1.2732;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:markers stroke fill" />
+    <rect
+       y="21.068769"
+       x="100.12202"
+       height="39.438744"
+       width="2.5986271"
+       id="minutehand"
+       style="opacity:0.817891;fill:#1a1a1a;stroke:#000000;stroke-width:1.01332;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:markers stroke fill" />
+    <rect
+       transform="matrix(-0.91800078,-0.39657857,-0.46258726,0.88657376,0,0)"
+       style="opacity:0.817891;fill:#ff0000;stroke:#000000;stroke-width:0.666735;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:markers stroke fill"
+       id="hourhand"
+       width="2.7475712"
+       height="16.148567"
+       x="-120.31011"
+       y="-1.3922212" />
+  </g>
+</svg>
