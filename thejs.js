@@ -210,10 +210,13 @@ function f12()
     if (c==12)
     {  
         document.getElementById("fun12").style.display= "none"
+        //document.getElementById("f").style.display= "block"
+        document.getElementById("blackpowderDtoWM1").style.display="block"
         document.getElementById("cruciblelid").style.display = "none"
         document.getElementById("smollid").style.display = "block"
+        document.getElementById("blackpowderindessicator").style.display = "none"
         setTimeout((function(){
-            document.getElementById("blackpowderindessicator").style.display = "none"
+            document.getElementById("blackpowderDtoWM1").style.display="none"
         }), (800))
     }
     else
@@ -334,7 +337,7 @@ function f18()
     {   
         document.getElementById("fun18").style.display= "none"
         setTimeout((function(){
-            document.getElementById("blackpowderDtoWM1").style.display="none"
+            document.getElementById("blackpowderDtoWM").style.display="none"
             document.getElementById("blackpowderinfurnace2").style.display="block"
             document.getElementById("Crucibleinfurnace2").style.display="block"
             document.getElementById("furnacedoor").style.display ="none"
