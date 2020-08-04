@@ -1,13 +1,33 @@
+
+
+
+
+
+
+
 .Second{
     display: none;
     position: relative;
     z-index: 0;
+   
 }
 
 .First{
     margin-top: -1000px;
     position: absolute;
 }
+/* 
+#hourhand{
+    transition: 1s; */
+    /* width="2.7475712"
+    height="16.148567"
+    x="-120.31011"
+    y="-1.3922212" */
+   
+/* }
+#hourhand:hover{
+    transform:rotate(180deg);
+} */
 
            
 .master{
@@ -35,3 +55,18 @@
   
    transform: scale(0.8);
 } */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
