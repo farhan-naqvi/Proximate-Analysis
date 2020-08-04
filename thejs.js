@@ -146,14 +146,21 @@ function f9()
     c= c+1
     if (c==9)
     {   
+        document.getElementById("fun9").style.display= "none"
+        document.getElementById("Crucibleinoven").style.display ="block"
+        document.getElementById("blackpowderinoven").style.display ="block"
+        document.getElementById("ovendoor").style.display ="block"
+        document.getElementById("ovendoorknob").style.display ="block"
+        document.getElementById("tongs3").style.display ="block"
         setTimeout((function(){
-            document.getElementById("fun9").style.display= "none"
-            document.getElementById("Crucibleinoven").style.display ="block"
-            document.getElementById("blackpowderinoven").style.display ="block"
-            document.getElementById("ovendoor").style.display ="block"
-            document.getElementById("ovendoorknob").style.display ="block"
-            document.getElementById("tongs3").style.display ="block"
-        }), (0000))
+            document.getElementById("Second").style.display ="none" 
+            document.getElementById("First").style.display ="block" 
+        }), (6000))
+        setTimeout((function(){
+            document.getElementById("First").style.display ="none" 
+            document.getElementById("Second").style.display ="block" 
+        }), (1000))
+
     }
     else
     {
@@ -260,6 +267,14 @@ function f14()
         document.getElementById("fun14").style.display= "none"
         document.getElementById("furnacedoor").style.display ="block"
         document.getElementById("furnacedoorknob").style.display ="block"
+        setTimeout((function(){
+            document.getElementById("Third").style.display ="none" 
+            document.getElementById("First").style.display ="block" 
+        }), (6000))
+        setTimeout((function(){
+            document.getElementById("First").style.display ="none" 
+            document.getElementById("Third").style.display ="block" 
+        }), (1000))
     }
     else
     {
@@ -353,12 +368,20 @@ function f18()
             document.getElementById("furnacedoorknob").style.display ="block"
         }), (5000))
         setTimeout((function(){
+            document.getElementById("Fourth").style.display ="none" 
+            document.getElementById("First").style.display ="block" 
+        }), (11000))
+        setTimeout((function(){
+            document.getElementById("First").style.display ="none" 
+            document.getElementById("Fourth").style.display ="block" 
+        }), (6000))
+        setTimeout((function(){
             document.getElementById("furnacedoor").style.display ="none"
             document.getElementById("tongs5").style.display = "none"
             document.getElementById("furnacedoorknob").style.display ="none"
             document.getElementById("blackpowderinfurnace2").style.display="block"
             document.getElementById("Crucibleinfurnace2").style.display="block"
-        }), (10000))
+        }), (12000))
         setTimeout((function(){
             document.getElementById("furnacedoor").style.display ="block"
             document.getElementById("furnacedoorknob").style.display ="block"
@@ -407,4 +430,5 @@ function f20()
         alert("You have clicked on the wrong apparatus. Please follow the instructions given above.Refresh to avoid errors")
     }
 }
+
 
