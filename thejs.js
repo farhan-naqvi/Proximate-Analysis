@@ -1,4 +1,10 @@
 var c = 0;
+var P1 = "00:00";
+var P2 = "00.00";
+var P3 = "00.00";
+document.getElementById("Pisplay").innerHTML = P1;
+document.getElementById("Pisplay2").innerHTML = P2;
+document.getElementById("Pisplay3").innerHTML = P3;
 
 function f1()
 {   
@@ -12,8 +18,8 @@ function f1()
         }), (800))
     }
     else
-    {
-        alert("You have clicked on the wrong apparatus. Please follow the instructions given above.Refresh to avoid errors")
+    {   
+        c= c-1 ;  alert("You clicked on the wrong apparatus")
     }
 }
 
@@ -30,7 +36,7 @@ function f2()
     }
     else
     {
-        alert("You have clicked on the wrong apparatus. Please follow the instructions given above.Refresh to avoid errors")
+        c= c-1 ;  alert("You clicked on the wrong apparatus") ;  alert("You clicked on the wrong apparatus")
     }
 }
 
@@ -45,7 +51,7 @@ function f3()
     }
     else
     {
-        alert("You have clicked on the wrong apparatus. Please follow the instructions given above.Refresh to avoid errors")
+        c= c-1 ;  alert("You clicked on the wrong apparatus")
     }
 }
 
@@ -60,7 +66,7 @@ function f4()
     }
     else
     {
-        alert("You have clicked on the wrong apparatus. Please follow the instructions given above.Refresh to avoid errors")
+        c= c-1 ;  alert("You clicked on the wrong apparatus")
     }
 }
 
@@ -78,7 +84,7 @@ function f5()
     }
     else
     {
-        alert("You have clicked on the wrong apparatus. Please follow the instructions given above.Refresh to avoid errors")
+        c= c-1 ;  alert("You clicked on the wrong apparatus")
     }
 }
 
@@ -98,7 +104,7 @@ function f6()
     }
     else
     {
-        alert("You have clicked on the wrong apparatus. Please follow the instructions given above.Refresh to avoid errors")
+        c= c-1 ;  alert("You clicked on the wrong apparatus")
     }
 }
 
@@ -115,7 +121,7 @@ function f7()
     }
     else
     {
-        alert("You have clicked on the wrong apparatus. Please follow the instructions given above.Refresh to avoid errors")
+        c= c-1 ;  alert("You clicked on the wrong apparatus")
     }
 }
 
@@ -130,6 +136,7 @@ function f8()
             document.getElementById("Crucibleinoven").style.display ="block"
             document.getElementById("blackpowderinoven").style.display ="block"
             document.getElementById("ovendoor").style.display ="none"
+            document.getElementById("Pisplay2").style.display ="block"
             document.getElementById("ovendoorknob").style.display ="none"
             document.getElementById("tongs").style.display ="none"
             document.getElementById("blackpowderinmachine").style.display ="none"
@@ -137,7 +144,7 @@ function f8()
     }
     else
     {
-        alert("You have clicked on the wrong apparatus. Please follow the instructions given above.Refresh to avoid errors")
+        c= c-1 ;  alert("You clicked on the wrong apparatus")
     }
 }
 
@@ -150,6 +157,7 @@ function f9()
         document.getElementById("Crucibleinoven").style.display ="block"
         document.getElementById("blackpowderinoven").style.display ="block"
         document.getElementById("ovendoor").style.display ="block"
+        document.getElementById("Pisplay2").style.display ="none"
         document.getElementById("ovendoorknob").style.display ="block"
         document.getElementById("tongs3").style.display ="block"
         setTimeout((function(){
@@ -164,7 +172,7 @@ function f9()
     }
     else
     {
-        alert("You have clicked on the wrong apparatus. Please follow the instructions given above.Refresh to avoid errors")
+        c= c-1 ;  alert("You clicked on the wrong apparatus")
     }
 }
 
@@ -174,10 +182,12 @@ function f10()
     if (c==10)
     {   
         document.getElementById("ovendoor").style.display ="none"
+        document.getElementById("Pisplay2").style.display ="block"
         document.getElementById("ovendoorknob").style.display ="none"
         setTimeout((function(){
             document.getElementById("fun10").style.display= "none"
             document.getElementById("ovendoor").style.display ="block"
+            document.getElementById("Pisplay2").style.display ="none"
             document.getElementById("ovendoorknob").style.display ="block"
             document.getElementById("Crucibleindessicator").style.display="block"
             document.getElementById("blackpowderindessicator").style.display="block"
@@ -187,7 +197,7 @@ function f10()
     }
     else
     {
-        alert("You have clicked on the wrong apparatus. Please follow the instructions given above.Refresh to avoid errors")
+        c= c-1 ;  alert("You clicked on the wrong apparatus")
     }
 }
 
@@ -207,7 +217,7 @@ function f11()
     }
     else
     {
-        alert("You have clicked on the wrong apparatus. Please follow the instructions given above.Refresh to avoid errors")
+        c= c-1 ;  alert("You clicked on the wrong apparatus")
     }
 }
 
@@ -228,7 +238,7 @@ function f12()
     }
     else
     {
-        alert("You have clicked on the wrong apparatus. Please follow the instructions given above.Refresh to avoid errors")
+        c= c-1 ;  alert("You clicked on the wrong apparatus")
     }
 }
 
@@ -240,6 +250,7 @@ function f13()
         document.getElementById("YashKale").style.display= "none"
         setTimeout((function(){
             document.getElementById("furnacedoor").style.display ="none"
+            document.getElementById("Pisplay3").style.display ="block"
             document.getElementById("furnacedoorknob").style.display ="none"
             document.getElementById("Crucibleindessicatortofurnace").style.display="none"
             //document.getElementById("tongs4").style.display="none"
@@ -252,7 +263,7 @@ function f13()
     }
     else
     {
-        alert("You have clicked on the wrong apparatus. Please follow the instructions given above.Refresh to avoid errors")
+        c= c-1 ;  alert("You clicked on the wrong apparatus")
     }
 }
 
@@ -266,6 +277,7 @@ function f14()
         document.getElementById("smollid").style.display="none"
         document.getElementById("fun14").style.display= "none"
         document.getElementById("furnacedoor").style.display ="block"
+        document.getElementById("Pisplay3").style.display ="none"
         document.getElementById("furnacedoorknob").style.display ="block"
         setTimeout((function(){
             document.getElementById("Third").style.display ="none" 
@@ -278,7 +290,7 @@ function f14()
     }
     else
     {
-        alert("You have clicked on the wrong apparatus. Please follow the instructions given above.Refresh to avoid errors")
+        c= c-1 ;  alert("You clicked on the wrong apparatus")
     }
 }
 
@@ -290,6 +302,7 @@ function f15()
         document.getElementById("smollid").style.display="block"
         document.getElementById("fun15").style.display= "none"
         document.getElementById("furnacedoor").style.display ="none"
+        document.getElementById("Pisplay3").style.display ="block"
         document.getElementById("furnacedoorknob").style.display ="none"
         document.getElementById("Crucibleinfurnace").style.display="block"
         //
@@ -298,7 +311,7 @@ function f15()
     }
     else 
     {
-        alert("You have clicked on the wrong apparatus. Please follow the instructions given above.Refresh to avoid errors")
+        c= c-1 ;  alert("You clicked on the wrong apparatus")
     }
 }
 
@@ -314,6 +327,7 @@ function f16()
 
             //document.getElementById("cruciblelid").style.display = "block"
             document.getElementById("furnacedoor").style.display ="block"
+            document.getElementById("Pisplay3").style.display ="none"
             document.getElementById("furnacedoorknob").style.display ="block"
             document.getElementById("CrucibleindessicatortoWM").style.display="block"
             document.getElementById("blackpowderDtoWM").style.display="block"
@@ -326,7 +340,7 @@ function f16()
     }
     else
     {
-        alert("You have clicked on the wrong apparatus. Please follow the instructions given above.Refresh to avoid errors")
+        c= c-1 ;  alert("You clicked on the wrong apparatus")
     }
 }
 
@@ -341,7 +355,7 @@ function f17()
     }
     else
     {
-        alert("You have clicked on the wrong apparatus. Please follow the instructions given above.Refresh to avoid errors")
+        c= c-1 ;  alert("You clicked on the wrong apparatus")
     }
 }
 
@@ -356,11 +370,13 @@ function f18()
             document.getElementById("blackpowderinfurnace2").style.display="block"
             document.getElementById("Crucibleinfurnace2").style.display="block"
             document.getElementById("furnacedoor").style.display ="none"
+            document.getElementById("Pisplay3").style.display ="block"
             document.getElementById("furnacedoorknob").style.display ="none"
             document.getElementById("CrucibleindessicatortoWM").style.display="none"
         }), (3000))
         setTimeout((function(){
             document.getElementById("furnacedoor").style.display ="block"
+            document.getElementById("Pisplay3").style.display ="none"
             document.getElementById("blackpowderinfurnace2").style.display="none"
             document.getElementById("Crucibleinfurnace2").style.display="none"
             document.getElementById("tongs5").style.display = "none"
@@ -377,6 +393,7 @@ function f18()
         }), (6000))
         setTimeout((function(){
             document.getElementById("furnacedoor").style.display ="none"
+            document.getElementById("Pisplay3").style.display ="block"
             document.getElementById("tongs5").style.display = "none"
             document.getElementById("furnacedoorknob").style.display ="none"
             document.getElementById("blackpowderinfurnace2").style.display="block"
@@ -384,13 +401,14 @@ function f18()
         }), (12000))
         setTimeout((function(){
             document.getElementById("furnacedoor").style.display ="block"
+            document.getElementById("Pisplay2").style.display ="none"
             document.getElementById("furnacedoorknob").style.display ="block"
         }), (18000))
     }
     
     else
     {
-        alert("You have clicked on the wrong apparatus. Please follow the instructions given above.Refresh to avoid errors")
+        c= c-1 ;  alert("You clicked on the wrong apparatus")
     }
 }
 
@@ -410,7 +428,7 @@ function f19()
     }
     else
     {
-        alert("You have clicked on the wrong apparatus. Please follow the instructions given above.Refresh to avoid errors")
+        c= c-1 ;  alert("You clicked on the wrong apparatus")
     }
 }
 
@@ -427,7 +445,7 @@ function f20()
     }
     else
     {
-        alert("You have clicked on the wrong apparatus. Please follow the instructions given above.Refresh to avoid errors")
+        c= c-1 ;  alert("You clicked on the wrong apparatus")
     }
 }
 
