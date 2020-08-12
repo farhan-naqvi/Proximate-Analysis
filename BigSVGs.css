@@ -56,6 +56,11 @@
    transform: scale(0.8);
 } */
 
+.PPisplay{
+    margin-top: -1000px;
+    position: relative;
+    background-color: rgb(255, 127, 206);
+  }
 
 
 
