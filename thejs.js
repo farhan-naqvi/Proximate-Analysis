@@ -10,7 +10,8 @@ function f1()
             document.getElementById("fun1").style.display = "none"
             document.getElementById("crucible_to_weighingmachine").style.display = "block"
         }), (800))
-    }
+    
+}
     else
     {
         alert("You have clicked on the wrong apparatus. Please follow the instructions given above.Refresh to avoid errors")
@@ -27,6 +28,7 @@ function f2()
             document.getElementById("Crucibleinmachine").style.display = "block"
             document.getElementById("crucible_to_weighingmachine").style.display = "none"
         }), (2000))
+     
     }
     else
     {
@@ -42,6 +44,7 @@ function f3()
         setTimeout((function (){
             document.getElementById("fun3").style.display = "none"
         }), (2000))
+       
     }
     else
     {
@@ -160,7 +163,7 @@ function f9()
             document.getElementById("First").style.display ="none" 
             document.getElementById("Second").style.display ="block" 
         }), (1000))
-
+ 
     }
     else
     {
@@ -367,14 +370,14 @@ function f18()
             document.getElementById("tongs6").style.display = "block"
             document.getElementById("furnacedoorknob").style.display ="block"
         }), (5000))
-        setTimeout((function(){
+       setTimeout((function(){
             document.getElementById("Fourth").style.display ="none" 
             document.getElementById("First").style.display ="block" 
         }), (11000))
         setTimeout((function(){
             document.getElementById("First").style.display ="none" 
             document.getElementById("Fourth").style.display ="block" 
-        }), (6000))
+        }), (6000)) 
         setTimeout((function(){
             document.getElementById("furnacedoor").style.display ="none"
             document.getElementById("tongs5").style.display = "none"
