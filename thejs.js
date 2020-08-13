@@ -2,9 +2,12 @@ var c = 0;
 var P1 = "00:00";
 var P2 = "00.00";
 var P3 = "00.00";
-document.getElementById("Pisplay").innerHTML = P1;
-document.getElementById("Pisplay2").innerHTML = P2;
-document.getElementById("Pisplay3").innerHTML = P3;
+document.getElementById("Pisplay2").style.display = "none"
+document.getElementById("Pisplay3").style.display = "none"
+
+$("#Pisplay1").text(P1);
+$("#Pisplay2").text(P1);
+$("#Pisplay3").text(P1);
 
 function f1()
 {   
@@ -404,7 +407,7 @@ function f18()
         }), (12000))
         setTimeout((function(){
             document.getElementById("furnacedoor").style.display ="block"
-            document.getElementById("Pisplay2").style.display ="none"
+            document.getElementById("Pisplay3").style.display ="none"
             document.getElementById("furnacedoorknob").style.display ="block"
         }), (18000))
     }
