@@ -32,7 +32,7 @@
         <link rel="stylesheet" type="text/css" href="BigSVGs.css">
         
     </head>
-    <body style="background-color: #63796c; overflow:hidden ">
+    <body style="background-color: #63796c; overflow: hidden;">
 
       <div class="slave" id="fun21">
          <p>We are done<p>
@@ -734,10 +734,11 @@
              attributeType="XML"
              type="translate"
              dur="1s"
+             id = "anicrucible0"
              values="0,0;53,78"
              visibility="hidden"
              fill="freeze"
-             begin="crucible0.click"
+            begin = "crucible0.click"
              additive="sum" 
             
              />
@@ -750,6 +751,7 @@
             id="crucible_to_weighingmachine"  onclick="f2()" display = "none">
 
             <animateTransform 
+            id = "anicrucible_to_weighingmachine"
             attributeName="transform"
             attributeType="XML"
             type="translate"
@@ -1215,7 +1217,6 @@
              height="41.29314"
              width="39.823151"
              id="ovendoor" 
-             
              style="opacity:1;fill:#0086ff;fill-opacity:0.842308;stroke:#000007;stroke-width:0.280038;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.623077;paint-order:markers stroke fill" />
              <path
              d="m 44.73828,10.061844 -0.04341,3.24528 0.100253,0.0062 v 0.02532 h 6.035808 l 0.210322,0.237195 6.488491,1.117761 a 0.69434029,0.69134235 0 0 0 0.0052,0.07131 l -6.100403,1.69447 -0.190169,0.24753 -0.08733,-0.0057 h -6.341731 l -0.04444,3.510897 0.122989,0.0083 h 6.341731 l 0.04289,-3.433382 6.344317,-1.762166 a 0.69434029,0.69134235 0 0 0 0.600995,0.345198 0.69434029,0.69134235 0 0 0 0.649058,-0.445451 l 5.472533,0.942579 -0.05013,0.130224 0.310576,-0.08527 0.08682,0.01499 -0.02791,-0.03101 6.515364,-1.788004 0.441833,0.05943 0.112655,-0.211357 0.109037,-0.28112 -0.723985,0.198438 -6.919476,-0.927592 0.03204,-0.04134 -0.111623,0.03101 -0.05323,-0.0072 -0.01395,0.02584 -5.195548,1.443323 a 0.69434029,0.69134235 0 0 0 -0.634072,-0.409794 0.69434029,0.69134235 0 0 0 -0.641821,0.427881 l -6.520015,-1.123446 0.04341,-3.223059 -0.120925,-0.0072 z m 0.119372,0.104387 h 6.125207 l -0.04134,3.067513 H 44.81683 Z m 19.184876,2.985347 6.522082,0.874365 -6.079733,1.667599 -0.09353,-0.104903 -5.430676,-0.93586 4.994011,-1.386996 z m -19.106327,3.662825 h 6.219259 l -0.04134,3.292823 h -6.218743 z"
@@ -1630,8 +1631,8 @@
             attributeName="transform"
             attributeType="XML"
             type="translate"
-            dur="1.3s"
-            values="0,0;-128,-8"
+            dur="1.0s"
+            values="0,0;-126,-4.5"
             visibility="hidden"
             fill="freeze"
             begin="blackpowderDtoWM2.click; CrucibleindessicatortoWM2.click"
@@ -1710,13 +1711,46 @@
                   
                   />
                   </path> 
-                
+                  <text
+                  transform="scale(1.0146236,0.98558713)"
+                  id="Pisplay1"
+                  y="80.94648"
+                  x="90.514534"
+                  style="font-style:normal;font-weight:normal;font-size:3.76318px;line-height:1.25;font-family:sans-serif;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.235199;"
+                  xml:space="preserve"><tspan
+                    style="font-size:3.76318px;stroke-width:0.235199;fill:#ffffff;fill-opacity:1;"
+                    y="80.94648"
+                    x="90.514534"
+                    id="PPisplay1"
+                    sodipodi:role="line"></tspan></text>
+               <text
+                  xml:space="preserve"
+                  style="font-style:normal;font-weight:normal;font-size:3.76317px;line-height:1.25;font-family:sans-serif;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.235199"
+                  x="171.55247"
+                  y="81.662888"
+                  id="Pisplay2"
+                  transform="scale(1.0146236,0.98558716)"><tspan
+                    sodipodi:role="line"
+                    id="PPisplay2"
+                    x="171.55247"
+                    y="81.662888"
+                    style="font-size:3.76317px;fill:#ffffff;fill-opacity:1;stroke-width:0.235199"></tspan></text>
+               <text
+                  xml:space="preserve"
+                  style="font-style:normal;font-weight:normal;font-size:3.76317px;line-height:1.25;font-family:sans-serif;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.235199"
+                  x="261.16705"
+                  y="84.320427"
+                  id="Pisplay3"
+                  transform="scale(1.0146236,0.98558716)"><tspan
+                    sodipodi:role="line"
+                    id="PPisplay3"
+                    x="261.16705"
+                    y="84.320427"
+                    style="font-size:3.76317px;fill:#ffffff;fill-opacity:1;stroke-width:0.235199"></tspan></text>
         </g>
       </svg>
-      <p id = "Pisplay" style="margin-top: -41.5%; margin-left: 29.7%;color: #FFF;"></p>
-      <p id = "Pisplay2" style= "margin-top: -2.7%; margin-left: 55%; color: white; display : none"></p>
-      <p id = "Pisplay3" style="color: #FFF; margin-top: -1.8%; margin-left:83%; display: none;"></p>
-     <!-- <p id = "Pisplay" style="margin-top: -504px; margin-left: 360px;color: #FFF;"></p>
+      <!--<p id="BB1" style=" left:80px; top:90px; position: relative;">jojo'S bIG PP ADVENTURES</p>
+     <p id = "Pisplay" style="margin-top: -504px; margin-left: 360px;color: #FFF;"></p>
       <p id = "Pisplay2" style= "margin-top: -30px; margin-left: 660px; color: white; display:none;"></p>
       <p id = "Pisplay3" style="color: #FFF; margin-top: -23px; margin-left:1000px;display:none;"></p>
      -->
