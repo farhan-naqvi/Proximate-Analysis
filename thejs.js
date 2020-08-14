@@ -9,6 +9,16 @@ $("#Pisplay1").text(P1);
 $("#Pisplay2").text(P1);
 $("#Pisplay3").text(P1);
 
+//$( "#crucible0" ).click(function() {
+//    document.getElementById("anicrucible0").beginElement();
+// });
+
+ // $( "#crucible_to_weighingmachine" ).click(function() {
+//    document.getElementById("anicrucible_to_weighingmachine").beginElement();
+//  });
+
+
+
 function f1()
 {   
     c = c + 1
