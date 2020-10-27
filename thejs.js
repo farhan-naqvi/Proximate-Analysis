@@ -22,13 +22,14 @@ function getQueryStringValue (key) {
   
   // Would write the value of the QueryString-variable called name to the console  
   $("#Pisplay1").text(getQueryStringValue("wt_coal")); 
-  document.getElementById("Pisplay1").innerHTML = getQueryStringValue("wt_coal") ; 
 function f1()
 {   
     c = c + 1
     if (c==1)
     {   
         setTimeout((function (){
+            document.getElementById("Pisplay1").innerHTML = getQueryStringValue("wt_coal") ; 
+            console.log(getQueryStringValue("wt_coal")); 
             document.getElementById("crucible0").style.display = "none"
             document.getElementById("fun1").style.display = "none"
             document.getElementById("crucible_to_weighingmachine").style.display = "block"
