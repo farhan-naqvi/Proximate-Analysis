@@ -431,7 +431,7 @@ function f18()
         setTimeout((function(){
             document.getElementById("furnacedoor").style.display ="none"
             document.getElementById("Pisplay3").style.display ="block"
-            document.getElementById("Pisplay3").innerHTML = getQueryStringValue("fur2") ;
+            document.getElementById("Pisplay3").innerHTML = getQueryStringValue("fur2") 
             document.getElementById("tongs5").style.display = "none"
             document.getElementById("furnacedoorknob").style.display ="none"
             document.getElementById("blackpowderinfurnace2").style.display="block"
