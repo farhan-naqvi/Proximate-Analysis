@@ -355,7 +355,7 @@ function f16()
     if (c==16)
     {   
         document.getElementById("smollid").style.display="none"
-        document.getElementById("Pisplay1").innerHTML = getQueryStringValue("wt_without_vm") ; 
+
         document.getElementById("blackpowderinfurnace").style.display="block"
         document.getElementById("fun16").style.display= "none"
         setTimeout((function(){
@@ -369,6 +369,7 @@ function f16()
             document.getElementById("Crucibleinfurnace").style.display="none"
             document.getElementById("blackpowderinfurnace").style.display="none"
             document.getElementById("tongs4").style.display="none"
+            document.getElementById("Pisplay1").innerHTML = getQueryStringValue("wt_without_vm") ; 
             document.getElementById("Pisplay3").innerHTML = getQueryStringValue("furnace_temp") ;
             document.getElementById("tongs5").style.display="block"
             document.getElementById("smollid").style.display="none"
@@ -387,6 +388,7 @@ function f17()
     {   
         document.getElementById("fun17").style.display= "none"
         setTimeout((function(){
+            document.getElementById("Pisplay1").innerHTML = "00.00" ; 
         }), (3000))
     }
     else
@@ -461,7 +463,7 @@ function f19()
             document.getElementById("Crucibleinfurnace2").style.display="none"
             document.getElementById("CrucibleindessicatortoWM2").style.display="block"
             document.getElementById("blackpowderDtoWM2").style.display="block"
-            document.getElementById("Pisplay1").innerHTML = getQueryStringValue("wt_ash") ;
+            
 
         }), (3000))
     }
@@ -478,7 +480,7 @@ function f20()
     {   
         document.getElementById("fun20").style.display= "none"
         setTimeout((function(){
-
+            document.getElementById("Pisplay1").innerHTML = getQueryStringValue("wt_ash") ;
 
         }), (3000))
     }
