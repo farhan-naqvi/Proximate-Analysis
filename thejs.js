@@ -157,8 +157,9 @@ function f8()
     c= c+1
     if (c==8)
     {   
+        document.getElementById("Pisplay1").innerHTML = "00.00" ; 
         setTimeout((function(){
-            document.getElementById("Pisplay1").innerHTML = "00.00" ; 
+            
             document.getElementById("tongswilltaketofurnace").style.display= "none"
             document.getElementById("fun8").style.display= "none"
             document.getElementById("Crucibleinoven").style.display ="block"
@@ -367,7 +368,7 @@ function f16()
             document.getElementById("Crucibleinfurnace").style.display="none"
             document.getElementById("blackpowderinfurnace").style.display="none"
             document.getElementById("tongs4").style.display="none"
-            document.getElementById("Pisplay1").innerHTML = getQueryStringValue("furnace_temp") ;
+            document.getElementById("Pisplay3").innerHTML = getQueryStringValue("furnace_temp") ;
             document.getElementById("tongs5").style.display="block"
             document.getElementById("smollid").style.display="none"
            }), (1000))
