@@ -262,7 +262,7 @@ function f12()
         document.getElementById("blackpowderDtoWM1").style.display="block"
         document.getElementById("cruciblelid").style.display = "none"
         document.getElementById("smollid").style.display = "block"
-        document.getElementById("Pisplay1").innerHTML = "00:00" ;
+        
         document.getElementById("blackpowderindessicator").style.display = "none"
         setTimeout((function(){
             document.getElementById("blackpowderDtoWM1").style.display="none"
@@ -286,6 +286,7 @@ function f13()
             document.getElementById("furnacedoorknob").style.display ="none"
             document.getElementById("Crucibleindessicatortofurnace").style.display="none"
             //document.getElementById("tongs4").style.display="none"
+            document.getElementById("Pisplay1").innerHTML = "00:00" ;
             document.getElementById("Crucibleinfurnace").style.display="block"
             document.getElementById("Pisplay3").innerHTML = getQueryStringValue("furnace_temp") ;
             document.getElementById("blackpowderinfurnace").style.display="block"
@@ -388,7 +389,7 @@ function f17()
     {   
         document.getElementById("fun17").style.display= "none"
         setTimeout((function(){
-            document.getElementById("Pisplay1").innerHTML = getQueryStringValue("wt_without_vm") ; 
+            
             
         }), (3000))
     }
@@ -405,7 +406,8 @@ function f18()
     {   
         document.getElementById("fun18").style.display= "none"
         setTimeout((function(){
-            document.getElementById("Pisplay1").innerHTML = "00.00" ; 
+            
+            document.getElementById("Pisplay1").innerHTML = getQueryStringValue("wt_without_vm") ; 
             document.getElementById("blackpowderDtoWM").style.display="none"
             document.getElementById("blackpowderinfurnace2").style.display="block"
             document.getElementById("Crucibleinfurnace2").style.display="block"
@@ -417,6 +419,7 @@ function f18()
         }), (3000))
         setTimeout((function(){
             document.getElementById("furnacedoor").style.display ="block"
+            document.getElementById("Pisplay1").innerHTML = "00.00" ; 
             document.getElementById("Pisplay3").style.display ="none"
             document.getElementById("blackpowderinfurnace2").style.display="none"
             document.getElementById("Crucibleinfurnace2").style.display="none"
