@@ -22,7 +22,7 @@ function getQueryStringValue (key) {
   
   // Would write the value of the QueryString-variable called name to the console  
   $("#Pisplay1").text(getQueryStringValue("wt_coal")); 
-
+  document.getElementById("Pisplay1").innerHTML = getQueryStringValue("wt_coal") ; 
 function f1()
 {   
     c = c + 1
