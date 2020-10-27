@@ -5,25 +5,29 @@ var P3 = "00.00";
 document.getElementById("Pisplay2").style.display = "none"
 document.getElementById("Pisplay3").style.display = "none"
 
-$("#Pisplay1").text(P1);
-$("#Pisplay2").text(P1);
-$("#Pisplay3").text(P1);
+//$("#Pisplay1").text(P1);
+//$("#Pisplay2").text(P1);
+//$("#Pisplay3").text(P1);
 
-//$( "#crucible0" ).click(function() {
-//    document.getElementById("anicrucible0").beginElement();
-// });
+//coallid.click; coalincontainer.click; Containersticker.click;ContainerLabel.click;container.click
+const container = document.querySelector('container')
+container.disabled = true
+const coalincontainer = document.querySelector('coalincontainer')
+coalincontainer.disabled = true
 
- // $( "#crucible_to_weighingmachine" ).click(function() {
-//    document.getElementById("anicrucible_to_weighingmachine").beginElement();
-//  });
-
-
+//wt_coal=5&type_coal=peat&oven_temp=105&furnace_temp=800&wt_before_heating=25&wt_after_heating=20&wt_without_moisture=20&wt_without_vm=18&wt_ash=15
+function getQueryStringValue (key) {  
+    return decodeURIComponent(window.location.search.replace(new RegExp("^(?:.*[&\\?]" + encodeURIComponent(key).replace(/[\.\+\*]/g, "\\$&") + "(?:\\=([^&]*))?)?.*$", "i"), "$1"));  
+  }  
+  
+  // Would write the value of the QueryString-variable called name to the console  
+  $("#Pisplay1").text(getQueryStringValue("wt_coal")); 
 
 function f1()
 {   
     c = c + 1
     if (c==1)
-    {
+    {   
         setTimeout((function (){
             document.getElementById("crucible0").style.display = "none"
             document.getElementById("fun1").style.display = "none"
@@ -43,6 +47,7 @@ function f2()
     if (c==2)
     {
         setTimeout((function (){
+            
             document.getElementById("fun2").style.display = "none"
             document.getElementById("Crucibleinmachine").style.display = "block"
             document.getElementById("crucible_to_weighingmachine").style.display = "none"
@@ -75,7 +80,7 @@ function f4()
 {   
     c = c + 1
     if (c==4)
-    {
+    {   
         setTimeout((function (){
             document.getElementById("fun4").style.display = "none"
         }), (2000))
