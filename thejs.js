@@ -15,7 +15,7 @@ container.disabled = true
 const coalincontainer = document.querySelector('coalincontainer')
 coalincontainer.disabled = true
 
-//wt_coal=5&type_coal=peat&oven_temp=105&furnace_temp=800&wt_before_heating=25&wt_after_heating=20&wt_without_moisture=20&wt_without_vm=18&wt_ash=15
+//wt_coal=5&type_coal=peat&oven_temp=105&furnace_temp=800&wt_before_heating=25&wt_after_heating=20&wt_without_moisture=20&wt_without_vm=18&wt_ash=15&fur2=900
 function getQueryStringValue (key) {  
     return decodeURIComponent(window.location.search.replace(new RegExp("^(?:.*[&\\?]" + encodeURIComponent(key).replace(/[\.\+\*]/g, "\\$&") + "(?:\\=([^&]*))?)?.*$", "i"), "$1"));  
   }  
@@ -240,7 +240,6 @@ function f11()
             document.getElementById("Crucibleindessicator").style.display="none"
             document.getElementById("Crucibleindessicatortofurnace").style.display="block"
             document.getElementById("fun11").style.display= "none"
-            document.getElementById("Pisplay1").innerHTML = getQueryStringValue("wt_without_moisture") ; 
             document.getElementById("tongs3").style.display ="none"
             document.getElementById("tongs4").style.display ="block"
 
@@ -259,6 +258,7 @@ function f12()
     {  
         document.getElementById("fun12").style.display= "none"
         //document.getElementById("f").style.display= "block"
+        document.getElementById("Pisplay1").innerHTML = getQueryStringValue("wt_without_moisture") ; 
         document.getElementById("blackpowderDtoWM1").style.display="block"
         document.getElementById("cruciblelid").style.display = "none"
         document.getElementById("smollid").style.display = "block"
@@ -407,7 +407,7 @@ function f18()
             document.getElementById("Crucibleinfurnace2").style.display="block"
             document.getElementById("furnacedoor").style.display ="none"
             document.getElementById("Pisplay3").style.display ="block"
-            document.getElementById("Pisplay3").innerHTML = getQueryStringValue("furnace_temp") ;
+            document.getElementById("Pisplay3").innerHTML = getQueryStringValue("fur2") ;
             document.getElementById("furnacedoorknob").style.display ="none"
             document.getElementById("CrucibleindessicatortoWM").style.display="none"
         }), (3000))
@@ -431,7 +431,7 @@ function f18()
         setTimeout((function(){
             document.getElementById("furnacedoor").style.display ="none"
             document.getElementById("Pisplay3").style.display ="block"
-            document.getElementById("Pisplay3").innerHTML = getQueryStringValue("furnace_temp") ;
+            document.getElementById("Pisplay3").innerHTML = getQueryStringValue("fur2") ;
             document.getElementById("tongs5").style.display = "none"
             document.getElementById("furnacedoorknob").style.display ="none"
             document.getElementById("blackpowderinfurnace2").style.display="block"
