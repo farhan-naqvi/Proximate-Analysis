@@ -369,7 +369,7 @@ function f16()
             document.getElementById("Crucibleinfurnace").style.display="none"
             document.getElementById("blackpowderinfurnace").style.display="none"
             document.getElementById("tongs4").style.display="none"
-            document.getElementById("Pisplay1").innerHTML = getQueryStringValue("wt_without_vm") ; 
+            
             document.getElementById("Pisplay3").innerHTML = getQueryStringValue("furnace_temp") ;
             document.getElementById("tongs5").style.display="block"
             document.getElementById("smollid").style.display="none"
@@ -388,7 +388,8 @@ function f17()
     {   
         document.getElementById("fun17").style.display= "none"
         setTimeout((function(){
-            document.getElementById("Pisplay1").innerHTML = "00.00" ; 
+            document.getElementById("Pisplay1").innerHTML = getQueryStringValue("wt_without_vm") ; 
+            
         }), (3000))
     }
     else
@@ -404,6 +405,7 @@ function f18()
     {   
         document.getElementById("fun18").style.display= "none"
         setTimeout((function(){
+            document.getElementById("Pisplay1").innerHTML = "00.00" ; 
             document.getElementById("blackpowderDtoWM").style.display="none"
             document.getElementById("blackpowderinfurnace2").style.display="block"
             document.getElementById("Crucibleinfurnace2").style.display="block"
