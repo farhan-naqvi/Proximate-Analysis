@@ -241,6 +241,7 @@ function f11()
             document.getElementById("Crucibleindessicatortofurnace").style.display="block"
             document.getElementById("fun11").style.display= "none"
             document.getElementById("tongs3").style.display ="none"
+            document.getElementById("Pisplay1").innerHTML = getQueryStringValue("wt_without_moisture") ; 
             document.getElementById("tongs4").style.display ="block"
 
         }), (2000))
@@ -258,7 +259,7 @@ function f12()
     {  
         document.getElementById("fun12").style.display= "none"
         //document.getElementById("f").style.display= "block"
-        document.getElementById("Pisplay1").innerHTML = getQueryStringValue("wt_without_moisture") ; 
+        document.getElementById("Pisplay1").innerHTML = "00.00" ; 
         document.getElementById("blackpowderDtoWM1").style.display="block"
         document.getElementById("cruciblelid").style.display = "none"
         document.getElementById("smollid").style.display = "block"
@@ -282,7 +283,6 @@ function f13()
         document.getElementById("YashKale").style.display= "none"
         setTimeout((function(){
             document.getElementById("furnacedoor").style.display ="none"
-            document.getElementById("Pisplay1").innerHTML = "00.00" ; 
             document.getElementById("Pisplay3").style.display ="block"
             document.getElementById("furnacedoorknob").style.display ="none"
             document.getElementById("Crucibleindessicatortofurnace").style.display="none"
