@@ -355,6 +355,7 @@ function f16()
     if (c==16)
     {   
         document.getElementById("smollid").style.display="none"
+        document.getElementById("Pisplay1").innerHTML = getQueryStringValue("wt_without_vm") ; 
         document.getElementById("blackpowderinfurnace").style.display="block"
         document.getElementById("fun16").style.display= "none"
         setTimeout((function(){
