@@ -142,6 +142,7 @@ function f7()
             document.getElementById("Cruciblefilledwithpowderistakentomachine").style.display= "none"
             document.getElementById("fun7").style.display= "none"
             document.getElementById("Pisplay1").innerHTML = getQueryStringValue("wt_coal") ; 
+            document.getElementById("Jonathan").innerHTML = getQueryStringValue("wt_coal") ;
             document.getElementById("tongswilltaketofurnace").style.display= "block"
             
         }), (1800))
