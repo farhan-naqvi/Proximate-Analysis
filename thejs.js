@@ -243,6 +243,8 @@ function f11()
             document.getElementById("fun11").style.display= "none"
             document.getElementById("tongs3").style.display ="none"
             document.getElementById("Pisplay1").innerHTML = getQueryStringValue("wt_without_moisture") ; 
+            document.getElementById("Joseph").innerHTML = getQueryStringValue("wt_without_moisture") ; 
+            document.getElementById("Jotaro").innerHTML = getQueryStringValue("wt_without_moisture") ; 
             document.getElementById("tongs4").style.display ="block"
 
         }), (2000))
@@ -391,6 +393,7 @@ function f17()
         document.getElementById("fun17").style.display= "none"
         setTimeout((function(){
             document.getElementById("Pisplay1").innerHTML = getQueryStringValue("wt_without_vm") ;
+            document.getElementById("Giorno").innerHTML = getQueryStringValue("wt_ash") ;
         }), (3000))
     }
     else
