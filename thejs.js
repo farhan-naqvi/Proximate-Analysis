@@ -32,8 +32,10 @@ function f1()
             document.getElementById("Pisplay1").innerHTML = "00.00" ; 
             //console.log(getQueryStringValue("wt_coal")); 
             document.getElementById("crucible0").style.display = "none"
+            document.getElementById("crucible0").style.cursor = "pointer"
             document.getElementById("fun1").style.display = "none"
             document.getElementById("crucible_to_weighingmachine").style.display = "block"
+            document.getElementById("crucible_to_weighingmachine").style.cursor = "pointer"
         }), (800))
     
 }
@@ -52,6 +54,7 @@ function f2()
             document.getElementById("Pisplay1").innerHTML = getQueryStringValue("wt_before_heating") ;
             document.getElementById("fun2").style.display = "none"
             document.getElementById("Crucibleinmachine").style.display = "block"
+            document.getElementById("Crucibleinmachine").style.cursor = "pointer"
             document.getElementById("crucible_to_weighingmachine").style.display = "none"
         }), (2000))
      
@@ -86,6 +89,7 @@ function f4()
     {   
         setTimeout((function (){
             document.getElementById("fun4").style.display = "none"
+            document.getElementById("fun4").style.cursor = "pointer"
         }), (2000))
     }
     else
@@ -102,8 +106,11 @@ function f5()
         setTimeout((function (){
             document.getElementById("fun5").style.display = "none"
             document.getElementById("fancyspoon").style.display = "none"
+            document.getElementById("fancyspoon").style.cursor = "pointer"
             document.getElementById("fancyspoon1").style.display = "block"
+            document.getElementById("fancyspoon1").style.cursor = "pointer"
             document.getElementById("blackpowder").style.display="block"
+            document.getElementById("blackpowder").style.cursor="pointer"
         }), (1000))
     }
     else
@@ -119,10 +126,13 @@ function f6()
     {      
         setTimeout((function(){
             document.getElementById("blackpowder").style.display = "none"
+            document.getElementById("blackpowder").style.cursor = "pointer"
             document.getElementById("blackpowderinmachine").style.display = "block"
+            document.getElementById("blackpowderinmachine").style.cursor = "pointer"
             document.getElementById("fun6").style.display= "none"
             
             document.getElementById("Cruciblefilledwithpowderistakentomachine").style.display= "block"
+            document.getElementById("Cruciblefilledwithpowderistakentomachine").style.cursor = "pointer"
             document.getElementById("Crucibleinmachine").style.display= "none"
             document.getElementById("fancyspoon1").style.display= "none"
         }), (1000))
@@ -144,6 +154,7 @@ function f7()
             document.getElementById("Pisplay1").innerHTML = getQueryStringValue("wt_coal") ; 
             document.getElementById("Jonathan").innerHTML = getQueryStringValue("wt_coal") ;
             document.getElementById("tongswilltaketofurnace").style.display= "block"
+            document.getElementById("tongswilltaketofurnace").style.cursor = "pointer"
             
         }), (1800))
     }
@@ -164,9 +175,12 @@ function f8()
             document.getElementById("tongswilltaketofurnace").style.display= "none"
             document.getElementById("fun8").style.display= "none"
             document.getElementById("Crucibleinoven").style.display ="block"
+            document.getElementById("Crucibleinoven").style.cursor = "pointer"
             document.getElementById("blackpowderinoven").style.display ="block"
+            document.getElementById("blackpowderinoven").style.cursor = "pointer"
             document.getElementById("ovendoor").style.display ="none"
             document.getElementById("Pisplay2").style.display ="block"
+            document.getElementById("Pisplay2").style.cursor = "pointer"
             document.getElementById("Pisplay2").innerHTML = getQueryStringValue("oven_temp") ; 
             document.getElementById("ovendoorknob").style.display ="none"
             document.getElementById("tongs").style.display ="none"
@@ -186,11 +200,16 @@ function f9()
     {   
         document.getElementById("fun9").style.display= "none"
         document.getElementById("Crucibleinoven").style.display ="block"
+        document.getElementById("Crucibleinoven").style.cursor = "pointer"
         document.getElementById("blackpowderinoven").style.display ="block"
+        document.getElementById("blackpowderinoven").style.cursor = "pointer"
         document.getElementById("ovendoor").style.display ="block"
+        document.getElementById("ovendoor").style.cursor = "pointer"
         document.getElementById("Pisplay2").style.display ="none"
         document.getElementById("ovendoorknob").style.display ="block"
+        document.getElementById("ovendoorknob").style.cursor = "pointer"
         document.getElementById("tongs3").style.display ="block"
+        document.getElementById("tongs3").style.cursor = "pointer"
         setTimeout((function(){
             document.getElementById("Second").style.display ="none" 
             document.getElementById("First").style.display ="block" 
@@ -214,14 +233,19 @@ function f10()
     {   
         document.getElementById("ovendoor").style.display ="none"
         document.getElementById("Pisplay2").style.display ="block"
+        document.getElementById("Pisplay2").style.cursor = "pointer"
         document.getElementById("ovendoorknob").style.display ="none"
         setTimeout((function(){
             document.getElementById("fun10").style.display= "none"
             document.getElementById("ovendoor").style.display ="block"
+            document.getElementById("ovendoor").style.cursor = "pointer"
             document.getElementById("Pisplay2").style.display ="none"
             document.getElementById("ovendoorknob").style.display ="block"
+            document.getElementById("ovendoorknob").style.cursor = "pointer"
             document.getElementById("Crucibleindessicator").style.display="block"
+            document.getElementById("Crucibleindessicator").style.cursor = "pointer"
             document.getElementById("blackpowderindessicator").style.display="block"
+            document.getElementById("blackpowderindessicator").style.cursor = "pointer"
             document.getElementById("Crucibleinoven").style.display="none"
             document.getElementById("blackpowderinoven").style.display="none"
         }), (4000))
@@ -240,12 +264,14 @@ function f11()
         setTimeout((function(){
             document.getElementById("Crucibleindessicator").style.display="none"
             document.getElementById("Crucibleindessicatortofurnace").style.display="block"
+            document.getElementById("Crucibleindessicatortofurnace").style.cursor = "pointer"
             document.getElementById("fun11").style.display= "none"
             document.getElementById("tongs3").style.display ="none"
             document.getElementById("Joseph").innerHTML = getQueryStringValue("wt_without_moisture") ; 
             document.getElementById("Jotaro").innerHTML = getQueryStringValue("wt_without_moisture") ; 
             document.getElementById("Pisplay1").innerHTML = getQueryStringValue("wt_without_moisture") ; 
             document.getElementById("tongs4").style.display ="block"
+            document.getElementById("tongs4").style.cursor = "pointer"
 
         }), (2000))
     }
@@ -264,8 +290,10 @@ function f12()
         //document.getElementById("f").style.display= "block"
         document.getElementById("Pisplay1").innerHTML = "00.00" ; 
         document.getElementById("blackpowderDtoWM1").style.display="block"
+        document.getElementById("blackpowderDtoWM1").style.cursor = "pointer"
         document.getElementById("cruciblelid").style.display = "none"
         document.getElementById("smollid").style.display = "block"
+        document.getElementById("smollid").style.cursor = "pointer"
         
         document.getElementById("blackpowderindessicator").style.display = "none"
         setTimeout((function(){
@@ -287,13 +315,16 @@ function f13()
         setTimeout((function(){
             document.getElementById("furnacedoor").style.display ="none"
             document.getElementById("Pisplay3").style.display ="block"
+            document.getElementById("Pisplay3").style.cursor = "pointer"
             document.getElementById("furnacedoorknob").style.display ="none"
             document.getElementById("Crucibleindessicatortofurnace").style.display="none"
             //document.getElementById("tongs4").style.display="none"
             document.getElementById("Pisplay1").innerHTML = "00:00" ;
             document.getElementById("Crucibleinfurnace").style.display="block"
+            document.getElementById("Crucibleinfurnace").style.cursor = "pointer"
             document.getElementById("Pisplay3").innerHTML = getQueryStringValue("furnace_temp") ;
             document.getElementById("blackpowderinfurnace").style.display="block"
+            document.getElementById("blackpowderinfurnace").style.cursor = "pointer"
             document.getElementById("blackpowderinfurnace").style.display="none"
 
 
@@ -315,8 +346,10 @@ function f14()
         document.getElementById("smollid").style.display="none"
         document.getElementById("fun14").style.display= "none"
         document.getElementById("furnacedoor").style.display ="block"
+        document.getElementById("furnacedoor").style.cursor = "pointer"
         document.getElementById("Pisplay3").style.display ="none"
         document.getElementById("furnacedoorknob").style.display ="block"
+        document.getElementById("furnacedoorknob").style.cursor = "pointer"
         setTimeout((function(){
             document.getElementById("Third").style.display ="none" 
             document.getElementById("First").style.display ="block" 
@@ -338,12 +371,15 @@ function f15()
     if (c==15)
     {   
         document.getElementById("smollid").style.display="block"
+        document.getElementById("smollid").style.cursor = "pointer"
         document.getElementById("fun15").style.display= "none"
         document.getElementById("furnacedoor").style.display ="none"
         document.getElementById("Pisplay3").style.display ="block"
+        document.getElementById("Pisplay3").style.cursor = "pointer"
         document.getElementById("Pisplay3").innerHTML = getQueryStringValue("furnace_temp") ;
         document.getElementById("furnacedoorknob").style.display ="none"
         document.getElementById("Crucibleinfurnace").style.display="block"
+        document.getElementById("Crucibleinfurnace").style.cursor = "pointer"
         //
         //document.getElementById("smollid").style.display="block"
 
@@ -367,15 +403,20 @@ function f16()
 
             //document.getElementById("cruciblelid").style.display = "block"
             document.getElementById("furnacedoor").style.display ="block"
+            document.getElementById("furnacedoor").style.cursor = "pointer"
             document.getElementById("Pisplay3").style.display ="none"
             document.getElementById("furnacedoorknob").style.display ="block"
+            document.getElementById("furnacedoorknob").style.cursor = "pointer"
             document.getElementById("CrucibleindessicatortoWM").style.display="block"
+            document.getElementById("CrucibleindessicatortoWM").style.cursor = "pointer"
             document.getElementById("blackpowderDtoWM").style.display="block"
+            document.getElementById("blackpowderDtoWM").style.cursor = "pointer"
             document.getElementById("Crucibleinfurnace").style.display="none"
             document.getElementById("blackpowderinfurnace").style.display="none"
             document.getElementById("tongs4").style.display="none"
             document.getElementById("Pisplay3").innerHTML = getQueryStringValue("furnace_temp") ;
             document.getElementById("tongs5").style.display="block"
+            document.getElementById("tongs5").style.cursor = "pointer"
             document.getElementById("smollid").style.display="none"
            }), (1000))
     }
@@ -412,9 +453,12 @@ function f18()
             document.getElementById("Pisplay1").innerHTML = "00.00" ; 
             document.getElementById("blackpowderDtoWM").style.display="none"
             document.getElementById("blackpowderinfurnace2").style.display="block"
+            document.getElementById("blackpowderinfurnace2").style.cursor = "pointer"
             document.getElementById("Crucibleinfurnace2").style.display="block"
+            document.getElementById("Crucibleinfurnace2").style.cursor = "pointer"
             document.getElementById("furnacedoor").style.display ="none"
             document.getElementById("Pisplay3").style.display ="block"
+            document.getElementById("Pisplay3").style.cursor = "pointer"
             document.getElementById("Pisplay3").innerHTML = getQueryStringValue("fur2") ;
             document.getElementById("furnacedoorknob").style.display ="none"
             document.getElementById("CrucibleindessicatortoWM").style.display="none"
@@ -468,7 +512,9 @@ function f19()
             document.getElementById("blackpowderinfurnace2").style.display="none"
             document.getElementById("Crucibleinfurnace2").style.display="none"
             document.getElementById("CrucibleindessicatortoWM2").style.display="block"
+            document.getElementById("CrucibleindessicatortoWM2").style.cursor = "pointer"
             document.getElementById("blackpowderDtoWM2").style.display="block"
+            document.getElementById("blackpowderDtoWM2").style.cursor = "pointer"
             
 
         }), (3000))
